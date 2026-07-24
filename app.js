@@ -76,8 +76,10 @@ function renderGlobalHome(){
     const matches = leagueMatches(l.id);
     const active = l.status==='active';
     const loaded = teams.filter(t=>champCount(t)>0).length;
-    return `<article class="global-league-card ${active?'active':'planned'}" ${active?`data-home-league="${l.id}"`:''}>
-      <div class="global-card-top"><span class="global-region">${esc(l.region)}</span><span class="global-status ${active?'live':'soon'}">${active?'LIVE':'準備中'}</span></div>
+    const logoStyle = l.logo ? `style="--league-logo: url('${esc(l.logo)}')"` : '';
+    return `<article class="global-league-card ${active?'active':'planned'}" ${active?`data-home-league="${l.id}"`:''} ${logoStyle}>
+      <div class="global-league-bg" aria-hidden="true"></div>
+      <div class="global-card-top"><span class="global-region">${esc(l.region)}</span></div>
       <div class="global-code">${esc(l.id)}</div>
       <h3>${esc(l.name)}</h3>
       <p>${active?`${esc(compSeason(l))} ${esc(compSplit(l))} · Patch ${esc(compPatch(l))}`:'資料結構已預留，等待建立賽事資料。'}</p>
@@ -96,9 +98,6 @@ function renderGlobalHome(){
         <div class="eyebrow">GLOBAL LEAGUE OF LEGENDS ESPORTS DATABASE</div>
         <h1>全球職業賽<br><span>數據資料庫</span></h1>
         <p>從賽區、戰隊、選手一路查到版本英雄池。以完賽資料持續累積出場數、勝敗與勝率，作為賽事分析的底層資料。</p>
-        <div class="global-cta-row">
-          ${activeLeagues.map((l,i)=>`<button class="${i===0?'primary-cta':'secondary-cta'}" data-quick-league="${l.id}">進入 ${l.id}</button>`).join('')}
-        </div>
       </div>
       <div class="global-visual" aria-hidden="true">
         <div class="rift-orbit orbit-one"></div><div class="rift-orbit orbit-two"></div>
@@ -109,7 +108,7 @@ function renderGlobalHome(){
 
     <section class="stats-grid global-stats">
       <div class="stat-card"><small>已啟用聯賽</small><strong>${activeLeagues.length}/${DB.leagues.length}</strong><span>全球 Tier 1 架構</span></div>
-      <div class="stat-card"><small>已建立戰隊</small><strong>${activeTeams.length}</strong><span>LPL + LEC</span></div>
+      <div class="stat-card"><small>已建立戰隊</small><strong>${activeTeams.length}</strong><span>目前已建檔戰隊總數</span></div>
       <div class="stat-card"><small>名單選手</small><strong>${totalPlayers}</strong><span>目前資料庫名單</span></div>
       <div class="stat-card"><small>已記錄比賽</small><strong>${DB.matches.length}</strong><span>${totalGames} 個小局</span></div>
     </section>
@@ -118,7 +117,7 @@ function renderGlobalHome(){
     <section class="global-league-grid">${leagueCards}</section>
     <div class="source-note">資料庫快照：${esc(DB.meta.updated)} · 所有英雄名稱統一使用台灣伺服器繁體中文。</div>`;
 
-  main.querySelectorAll('[data-home-league],[data-quick-league]').forEach(el=>el.addEventListener('click',()=>goLeague(el.dataset.homeLeague || el.dataset.quickLeague)));
+  main.querySelectorAll('[data-home-league]').forEach(el=>el.addEventListener('click',()=>goLeague(el.dataset.homeLeague)));
 }
 
 function renderHome(){

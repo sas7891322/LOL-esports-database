@@ -12,6 +12,7 @@ window.ESPORTS_DATA = {
       "id": "LPL",
       "region": "中國",
       "name": "League of Legends Pro League",
+      "logo": "assets/leagues/lpl.svg",
       "status": "active",
       "teams": 12,
       "season": "2026",
@@ -24,6 +25,7 @@ window.ESPORTS_DATA = {
       "id": "LCK",
       "region": "韓國",
       "name": "League of Legends Champions Korea",
+      "logo": "assets/leagues/lck.svg",
       "status": "planned",
       "teams": null
     },
@@ -31,6 +33,7 @@ window.ESPORTS_DATA = {
       "id": "LEC",
       "region": "EMEA",
       "name": "League of Legends EMEA Championship",
+      "logo": "assets/leagues/lec.svg",
       "status": "active",
       "teams": 10,
       "season": "2026",
@@ -43,6 +46,7 @@ window.ESPORTS_DATA = {
       "id": "LCP",
       "region": "亞太",
       "name": "League of Legends Championship Pacific",
+      "logo": "assets/leagues/lcp.svg",
       "status": "planned",
       "teams": null
     },
@@ -50,6 +54,7 @@ window.ESPORTS_DATA = {
       "id": "LCS",
       "region": "美洲",
       "name": "League Championship Series",
+      "logo": "assets/leagues/lcs.svg",
       "status": "planned",
       "teams": null
     },
@@ -57,6 +62,7 @@ window.ESPORTS_DATA = {
       "id": "CBLOL",
       "region": "美洲",
       "name": "Campeonato Brasileiro de League of Legends",
+      "logo": "assets/leagues/cblol.svg",
       "status": "planned",
       "teams": null
     }
