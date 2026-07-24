@@ -10,3 +10,11 @@ This prototype is not yet an automated production database. Before public launch
 
 - LPL team logo images in `assets/teams/lpl/` were sourced from the current team profile assets shown by GosuGamers for identification inside this non-commercial prototype.
 - Team names, marks, and logos remain trademarks/copyrights of their respective owners.
+
+## LEC 2026 Summer
+
+- Riot Games confirmed the 2026 LEC Summer Split starts on 2026-07-24 with 10 teams and a single round-robin Bo3 regular season.
+- LEC Summer opening-day matches are played on Patch 26.14.
+- Current starting rosters were initialized from the LEC 2026 Summer event roster listings on Sheep Esports before the opening matches.
+- LEC team logo assets in `assets/teams/lec/` were sourced from the current team assets served by Sheep Esports for identification inside this non-commercial prototype.
+- No LEC champion statistics are prefilled. Player champion records begin only after completed 2026 Summer Patch 26.14 series.

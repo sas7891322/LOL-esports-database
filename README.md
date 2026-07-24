@@ -21,3 +21,11 @@ This folder can be deployed as a static site to Vercel, Netlify, GitHub Pages, C
 
 ## Data note
 This is a UI/data-architecture prototype. The sample LPL snapshot is intentionally finite and should be replaced by a verified per-game ingestion pipeline before public production use.
+
+## 2026-07-24 update
+
+- Activated LEC in the global league navigation.
+- Added all 10 LEC 2026 Summer teams and current starting rosters.
+- Added LEC team logos.
+- Added per-league season/split/patch rendering so LPL can remain on `2026 Split 3` while LEC uses `2026 Summer`.
+- LEC champion statistics intentionally start empty and will be added only after completed Bo3 series.
