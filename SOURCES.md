@@ -18,3 +18,5 @@ This prototype is not yet an automated production database. Before public launch
 - Current starting rosters were initialized from the LEC 2026 Summer event roster listings on Sheep Esports before the opening matches.
 - LEC team logo assets in `assets/teams/lec/` were sourced from the current team assets served by Sheep Esports for identification inside this non-commercial prototype.
 - No LEC champion statistics are prefilled. Player champion records begin only after completed 2026 Summer Patch 26.14 series.
+
+- GIANTX / SK Gaming card logos: recolored variants derived from the existing logo assets for dark-background readability.
