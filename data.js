@@ -5,7 +5,7 @@ window.ESPORTS_DATA = {
     "split": "Split 3",
     "patch": "26.14",
     "updated": "2026-07-24",
-    "note": "LPL 26.14 data through WE 2–1 JDG; LEC 2026 Summer rosters initialized before opening matches."
+    "note": "LPL 26.14 data updated through EDG 1–2 BLG; LEC 2026 Summer rosters initialized before opening matches."
   },
   "leagues": [
     {
@@ -18,7 +18,7 @@ window.ESPORTS_DATA = {
       "split": "Split 3",
       "patch": "26.14",
       "title": "中國職業聯賽資料庫",
-      "note": "2026 LPL Split 3 · Patch 26.14。只納入已完賽系列與實際出賽英雄資料。"
+      "note": "2026 LPL Split 3 · Patch 26.14。已納入截至 7/24 全部完賽系列與實際出賽英雄資料。"
     },
     {
       "id": "LCK",
@@ -113,6 +113,15 @@ window.ESPORTS_DATA = {
       "b": "JDG",
       "scoreA": 2,
       "scoreB": 1,
+      "patch": "26.14",
+      "league": "LPL"
+    },
+    {
+      "date": "07/24",
+      "a": "EDG",
+      "b": "BLG",
+      "scoreA": 1,
+      "scoreB": 2,
       "patch": "26.14",
       "league": "LPL"
     }
@@ -277,12 +286,12 @@ window.ESPORTS_DATA = {
       "name": "Bilibili Gaming",
       "group": "登峰組",
       "series": {
-        "w": 1,
+        "w": 2,
         "l": 0
       },
       "games": {
-        "w": 2,
-        "l": 1
+        "w": 4,
+        "l": 2
       },
       "players": [
         {
@@ -291,8 +300,8 @@ window.ESPORTS_DATA = {
           "champions": [
             {
               "name": "約瑞科",
-              "games": 1,
-              "wins": 1
+              "games": 2,
+              "wins": 2
             },
             {
               "name": "藍寶",
@@ -301,6 +310,16 @@ window.ESPORTS_DATA = {
             },
             {
               "name": "卡桑帝",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷尼克頓",
               "games": 1,
               "wins": 1
             }
@@ -317,7 +336,7 @@ window.ESPORTS_DATA = {
           "champions": [
             {
               "name": "嘉文四世",
-              "games": 1,
+              "games": 2,
               "wins": 1
             },
             {
@@ -329,6 +348,16 @@ window.ESPORTS_DATA = {
               "name": "納菲芮",
               "games": 1,
               "wins": 1
+            },
+            {
+              "name": "夜曲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "特朗德",
+              "games": 1,
+              "wins": 1
             }
           ]
         },
@@ -338,11 +367,26 @@ window.ESPORTS_DATA = {
           "champions": [
             {
               "name": "雷茲",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "洛克",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "阿璃",
               "games": 1,
               "wins": 1
             },
             {
-              "name": "阿璃",
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "阿卡莉",
               "games": 1,
               "wins": 1
             }
@@ -364,6 +408,16 @@ window.ESPORTS_DATA = {
             },
             {
               "name": "齊勒斯",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "路西恩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "伊澤瑞爾",
               "games": 1,
               "wins": 1
             }
@@ -387,6 +441,21 @@ window.ESPORTS_DATA = {
               "name": "卡蜜兒",
               "games": 1,
               "wins": 1
+            },
+            {
+              "name": "米里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "瑟菈紛",
+              "games": 1,
+              "wins": 1
             }
           ]
         }
@@ -400,11 +469,11 @@ window.ESPORTS_DATA = {
       "group": "登峰組",
       "series": {
         "w": 0,
-        "l": 1
+        "l": 2
       },
       "games": {
-        "w": 0,
-        "l": 2
+        "w": 1,
+        "l": 4
       },
       "players": [
         {
@@ -420,6 +489,21 @@ window.ESPORTS_DATA = {
               "name": "卡桑帝",
               "games": 1,
               "wins": 0
+            },
+            {
+              "name": "汎",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "歐拉夫",
+              "games": 1,
+              "wins": 0
             }
           ]
         },
@@ -429,11 +513,21 @@ window.ESPORTS_DATA = {
           "champions": [
             {
               "name": "李星",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "嘉文四世",
               "games": 1,
               "wins": 0
             },
             {
-              "name": "嘉文四世",
+              "name": "悟空",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "菲艾",
               "games": 1,
               "wins": 0
             }
@@ -452,6 +546,21 @@ window.ESPORTS_DATA = {
               "name": "逆命",
               "games": 1,
               "wins": 0
+            },
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "塔莉雅",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "洛克",
+              "games": 1,
+              "wins": 0
             }
           ]
         },
@@ -461,11 +570,21 @@ window.ESPORTS_DATA = {
           "champions": [
             {
               "name": "希格斯",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "路西恩",
               "games": 1,
               "wins": 0
             },
             {
-              "name": "路西恩",
+              "name": "法洛士",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "梅爾",
               "games": 1,
               "wins": 0
             }
@@ -482,6 +601,21 @@ window.ESPORTS_DATA = {
             },
             {
               "name": "米里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "亞歷斯塔",
               "games": 1,
               "wins": 0
             }

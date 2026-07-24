@@ -20,3 +20,9 @@ This prototype is not yet an automated production database. Before public launch
 - No LEC champion statistics are prefilled. Player champion records begin only after completed 2026 Summer Patch 26.14 series.
 
 - GIANTX / SK Gaming card logos: recolored variants derived from the existing logo assets for dark-background readability.
+
+## LPL 2026 Split 3 — 2026-07-24 update
+- Anyone's Legend 2–0 LGD Gaming — Patch 26.14 post-match game drafts and results.
+- Team WE 2–1 JD Gaming — Patch 26.14 post-match game drafts and results.
+- EDward Gaming 1–2 Bilibili Gaming — Patch 26.14 post-match game drafts and results.
+- Riot Games zh-TW champion pages / Patch 26.14 notes used for Taiwan server champion naming (e.g. 洛克、汎、悟空).
