@@ -1,11 +1,13 @@
 const DB = window.ESPORTS_DATA;
-let state = { league: 'LPL', view: 'teams', team: null };
+let state = { league: null, view: 'home', team: null };
 const main = document.getElementById('main');
 const leagueNav = document.getElementById('leagueNav');
 const modal = document.getElementById('modal');
 const modalBody = document.getElementById('modalBody');
 const search = document.getElementById('globalSearch');
 const searchResults = document.getElementById('searchResults');
+const compareBtn = document.getElementById('compareBtn');
+const snapshot = document.querySelector('.snapshot');
 
 const esc = (s='') => String(s).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const pct = (wins, games) => games ? Math.round((wins / games) * 1000) / 10 : 0;
@@ -19,14 +21,34 @@ const compPatch = l => l.patch || DB.meta.patch;
 const compSeason = l => l.season || DB.meta.season;
 const compSplit = l => l.split || DB.meta.split;
 
+function goGlobalHome(){
+  state.league = null;
+  state.team = null;
+  state.view = 'home';
+  renderLeagueNav();
+  syncSideActions();
+  render();
+}
+
+function goLeague(id){
+  state.league = id;
+  state.team = null;
+  state.view = 'teams';
+  renderLeagueNav();
+  syncSideActions();
+  render();
+}
+
 function renderLeagueNav(){
-  leagueNav.innerHTML = DB.leagues.map(l => `
+  leagueNav.innerHTML = `
+    <button class="league-btn ${!state.league?'active':''}" data-global-home>
+      <span class="league-code">HOME</span><span class="league-region">首頁</span>
+    </button>` + DB.leagues.map(l => `
     <button class="league-btn ${state.league===l.id?'active':''}" data-league="${l.id}">
       <span class="league-code">${l.id}</span><span class="league-region">${l.region}</span>${l.status!=='active'?'<span class="league-soon">SOON</span>':''}
     </button>`).join('');
-  leagueNav.querySelectorAll('[data-league]').forEach(btn=>btn.addEventListener('click',()=>{
-    state.league=btn.dataset.league; state.team=null; state.view='teams'; render(); renderLeagueNav(); syncSideActions();
-  }));
+  leagueNav.querySelector('[data-global-home]').addEventListener('click', goGlobalHome);
+  leagueNav.querySelectorAll('[data-league]').forEach(btn=>btn.addEventListener('click',()=>goLeague(btn.dataset.league)));
 }
 
 function headerHTML(l){
@@ -44,8 +66,64 @@ function headerHTML(l){
   </section>`;
 }
 
+function renderGlobalHome(){
+  const activeLeagues = DB.leagues.filter(l=>l.status==='active');
+  const activeTeams = DB.teams.filter(t=>activeLeagues.some(l=>l.id===t.league));
+  const totalPlayers = activeTeams.reduce((n,t)=>n+t.players.length,0);
+  const totalGames = DB.matches.reduce((n,m)=>n+m.scoreA+m.scoreB,0);
+  const leagueCards = DB.leagues.map(l=>{
+    const teams = leagueTeams(l.id);
+    const matches = leagueMatches(l.id);
+    const active = l.status==='active';
+    const loaded = teams.filter(t=>champCount(t)>0).length;
+    return `<article class="global-league-card ${active?'active':'planned'}" ${active?`data-home-league="${l.id}"`:''}>
+      <div class="global-card-top"><span class="global-region">${esc(l.region)}</span><span class="global-status ${active?'live':'soon'}">${active?'LIVE':'準備中'}</span></div>
+      <div class="global-code">${esc(l.id)}</div>
+      <h3>${esc(l.name)}</h3>
+      <p>${active?`${esc(compSeason(l))} ${esc(compSplit(l))} · Patch ${esc(compPatch(l))}`:'資料結構已預留，等待建立賽事資料。'}</p>
+      <div class="global-card-meta">
+        <span><strong>${teams.length || '—'}</strong> 戰隊</span>
+        <span><strong>${matches.length}</strong> 系列</span>
+        ${active?`<span><strong>${loaded}/${teams.length}</strong> 有英雄資料</span>`:''}
+      </div>
+      <div class="global-card-arrow">${active?'進入聯賽 →':'COMING SOON'}</div>
+    </article>`;
+  }).join('');
+
+  main.innerHTML = `
+    <section class="global-hero">
+      <div class="global-hero-copy">
+        <div class="eyebrow">GLOBAL LEAGUE OF LEGENDS ESPORTS DATABASE</div>
+        <h1>全球職業賽<br><span>數據資料庫</span></h1>
+        <p>從賽區、戰隊、選手一路查到版本英雄池。以完賽資料持續累積出場數、勝敗與勝率，作為賽事分析的底層資料。</p>
+        <div class="global-cta-row">
+          ${activeLeagues.map((l,i)=>`<button class="${i===0?'primary-cta':'secondary-cta'}" data-quick-league="${l.id}">進入 ${l.id}</button>`).join('')}
+        </div>
+      </div>
+      <div class="global-visual" aria-hidden="true">
+        <div class="rift-orbit orbit-one"></div><div class="rift-orbit orbit-two"></div>
+        <div class="rift-core"><strong>RIFT</strong><span>DB</span></div>
+        <span class="orbit-label label-lpl">LPL</span><span class="orbit-label label-lec">LEC</span><span class="orbit-label label-lck">LCK</span><span class="orbit-label label-lcp">LCP</span>
+      </div>
+    </section>
+
+    <section class="stats-grid global-stats">
+      <div class="stat-card"><small>已啟用聯賽</small><strong>${activeLeagues.length}/${DB.leagues.length}</strong><span>全球 Tier 1 架構</span></div>
+      <div class="stat-card"><small>已建立戰隊</small><strong>${activeTeams.length}</strong><span>LPL + LEC</span></div>
+      <div class="stat-card"><small>名單選手</small><strong>${totalPlayers}</strong><span>目前資料庫名單</span></div>
+      <div class="stat-card"><small>已記錄比賽</small><strong>${DB.matches.length}</strong><span>${totalGames} 個小局</span></div>
+    </section>
+
+    <section class="section-head global-section-head"><div><div class="section-kicker">LEAGUES</div><h2>選擇賽區</h2></div><span>已啟用的聯賽可直接進入</span></section>
+    <section class="global-league-grid">${leagueCards}</section>
+    <div class="source-note">資料庫快照：${esc(DB.meta.updated)} · 所有英雄名稱統一使用台灣伺服器繁體中文。</div>`;
+
+  main.querySelectorAll('[data-home-league],[data-quick-league]').forEach(el=>el.addEventListener('click',()=>goLeague(el.dataset.homeLeague || el.dataset.quickLeague)));
+}
+
 function renderHome(){
   const l = league(state.league);
+  if(!l){renderGlobalHome();return;}
   if(l.status!=='active'){
     main.innerHTML = headerHTML(l)+`<div class="empty-state"><div class="big-code">${l.id}</div><h2>${esc(l.name)}</h2><p>${esc(l.region)} 賽區已經放進全球架構，目前尚未建立正式戰隊資料。</p></div>`;
     return;
@@ -116,6 +194,7 @@ function openPlayer(teamId,playerId){
 
 function renderMatches(){
   const l=league(state.league);
+  if(!l){renderGlobalHome();return;}
   if(l.status!=='active'){renderHome();return}
   const matches=leagueMatches(l.id);
   const rows=matches.length?matches.map(m=>`<div class="match-row"><span class="match-date">${m.date}</span><span class="match-team">${m.a}</span><span class="score">${m.scoreA} : ${m.scoreB}</span><span class="match-team right">${m.b}</span><span class="patch">${m.patch}</span></div>`).join(''):`<div class="empty-state" style="padding:42px"><h2>尚未有完賽系列</h2><p>${l.id} ${esc(compSeason(l))} ${esc(compSplit(l))} 的第一個 BO3 完賽後，會從這裡開始累積。</p></div>`;
@@ -123,6 +202,7 @@ function renderMatches(){
 }
 
 function openCompare(){
+  if(!state.league)return;
   const teams=leagueTeams(state.league);
   if(!teams.length)return;
   const opts=teams.map(t=>`<option value="${t.id}">${t.id} · ${esc(t.name)}</option>`).join('');
@@ -136,15 +216,31 @@ function compareSide(t){return `<h3>${t.id}</h3><p style="color:var(--muted);fon
 
 function setupSearch(){
   const all=[]; DB.teams.forEach(t=>{all.push({type:'戰隊',label:t.id,sub:`${t.league} · ${t.name}`,action:()=>{state.league=t.league;state.team=t.id;state.view='teams';renderLeagueNav();syncSideActions();renderTeam();}});t.players.forEach(p=>{all.push({type:p.role,label:p.id,sub:`${t.id} · ${t.name}`,action:()=>{state.league=t.league;state.team=t.id;state.view='teams';renderLeagueNav();syncSideActions();renderTeam();openPlayer(t.id,p.id);}});p.champions.forEach(c=>all.push({type:'英雄',label:c.name,sub:`${p.id} · ${t.id}`,action:()=>{state.league=t.league;state.team=t.id;state.view='teams';renderLeagueNav();syncSideActions();renderTeam();openPlayer(t.id,p.id);}}));});});
-  search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase(); if(!q){searchResults.classList.add('hidden');return}const found=all.filter(x=>(x.label+' '+x.sub).toLowerCase().includes(q)).slice(0,12);searchResults.innerHTML=found.length?found.map((x,i)=>`<div class="search-result" data-r="${i}"><div><strong>${esc(x.label)}</strong><small>${esc(x.sub)}</small></div><span class="search-tag">${x.type}</span></div>`).join(''):'<div class="search-result"><small>找不到符合資料</small></div>';searchResults.classList.remove('hidden');searchResults.querySelectorAll('[data-r]').forEach(el=>el.addEventListener('click',()=>{found[+el.dataset.r].action();searchResults.classList.add('hidden');search.value='';}));});
+  search.addEventListener('input',()=>{const q=search.value.trim().toLowerCase(); if(!q){searchResults.classList.add('hidden');return}const found=all.filter(x=>(x.label+' '+x.sub).toLowerCase().includes(q)).slice(0,12);searchResults.innerHTML=found.length?found.map((x,i)=>`<div class="search-result" data-r="${i}"><div><strong>${esc(x.label)}</strong><small>${esc(x.sub)}</small></div><span class="search-tag">${x.type}</span></div>`).join(''):'<div class="search-result"><small>找不到符合資料</small></div>';searchResults.classList.remove('hidden');searchResults.querySelectorAll('[data-r]').forEach(el=>el.addEventListener('click',()=>{found[+el.dataset.r].action();searchResults.classList.add('hidden');search.value='';syncTopActions();}));});
   document.addEventListener('click',e=>{if(!e.target.closest('.search-wrap'))searchResults.classList.add('hidden')});
   document.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();search.focus()}if(e.key==='Escape'){closeModal();searchResults.classList.add('hidden')}});
 }
 function showModal(){modal.classList.remove('hidden');document.body.style.overflow='hidden'} function closeModal(){modal.classList.add('hidden');document.body.style.overflow=''}
-function syncSideActions(){document.querySelectorAll('.side-action').forEach(x=>x.classList.toggle('active',x.dataset.view===state.view))}
-function render(){state.team?renderTeam():state.view==='matches'?renderMatches():renderHome()}
+function syncSideActions(){
+  document.querySelectorAll('.side-action').forEach(x=>{
+    x.classList.toggle('active',!!state.league && x.dataset.view===state.view);
+    x.disabled=!state.league;
+  });
+  syncTopActions();
+}
+function syncTopActions(){
+  const usable=!!state.league && leagueTeams(state.league).length>1;
+  compareBtn.disabled=!usable;
+  compareBtn.classList.toggle('disabled',!usable);
+  snapshot.textContent=state.league?`${compPatch(league(state.league))} Snapshot`:'Global Database';
+}
+function render(){
+  if(!state.league){renderGlobalHome();syncTopActions();return;}
+  state.team?renderTeam():state.view==='matches'?renderMatches():renderHome();
+  syncTopActions();
+}
 
-renderLeagueNav();render();setupSearch();
-document.querySelectorAll('.side-action').forEach(btn=>btn.addEventListener('click',()=>{state.view=btn.dataset.view;state.team=null;syncSideActions();render()}));
-document.querySelector('[data-nav-home]').addEventListener('click',()=>{state.team=null;state.view='teams';state.league='LPL';renderLeagueNav();syncSideActions();render()});
-document.getElementById('compareBtn').addEventListener('click',openCompare);document.querySelectorAll('[data-close-modal]').forEach(x=>x.addEventListener('click',closeModal));
+renderLeagueNav();render();setupSearch();syncSideActions();
+document.querySelectorAll('.side-action').forEach(btn=>btn.addEventListener('click',()=>{if(!state.league)return;state.view=btn.dataset.view;state.team=null;syncSideActions();render()}));
+document.querySelector('[data-nav-home]').addEventListener('click',goGlobalHome);
+compareBtn.addEventListener('click',openCompare);document.querySelectorAll('[data-close-modal]').forEach(x=>x.addEventListener('click',closeModal));
