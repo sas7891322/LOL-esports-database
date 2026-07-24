@@ -12,7 +12,7 @@ window.ESPORTS_DATA = {
       "id": "LPL",
       "region": "中國",
       "name": "League of Legends Pro League",
-      "logo": "assets/leagues/lpl.svg",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2260%22%20x2%3D%22280%22%20y2%3D%22300%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%2367D8FF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23F6FBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20opacity%3D%220.22%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M148%2056H190L156%20304H114L148%2056Z%22%20fill%3D%22url%28%23g%29%22/%3E%0A%20%20%20%20%3Ctext%20x%3D%22216%22%20y%3D%22214%22%20font-family%3D%22Arial%2C%20Helvetica%2C%20sans-serif%22%20font-size%3D%2284%22%20font-weight%3D%22900%22%20letter-spacing%3D%221%22%20text-anchor%3D%22middle%22%20fill%3D%22url%28%23g%29%22%3ELPL%3C/text%3E%0A%20%20%20%20%3Crect%20x%3D%2258%22%20y%3D%2258%22%20width%3D%22244%22%20height%3D%22244%22%20rx%3D%2234%22%20stroke%3D%22url%28%23g%29%22%20stroke-width%3D%2210%22%20opacity%3D%220.55%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E",
       "status": "active",
       "teams": 12,
       "season": "2026",
@@ -25,7 +25,7 @@ window.ESPORTS_DATA = {
       "id": "LCK",
       "region": "韓國",
       "name": "League of Legends Champions Korea",
-      "logo": "assets/leagues/lck.svg",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2260%22%20x2%3D%22280%22%20y2%3D%22300%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%238ACBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23F6FBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20opacity%3D%220.22%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M148%2056H190L156%20304H114L148%2056Z%22%20fill%3D%22url%28%23g%29%22/%3E%0A%20%20%20%20%3Ctext%20x%3D%22216%22%20y%3D%22214%22%20font-family%3D%22Arial%2C%20Helvetica%2C%20sans-serif%22%20font-size%3D%2284%22%20font-weight%3D%22900%22%20letter-spacing%3D%221%22%20text-anchor%3D%22middle%22%20fill%3D%22url%28%23g%29%22%3ELCK%3C/text%3E%0A%20%20%20%20%3Crect%20x%3D%2258%22%20y%3D%2258%22%20width%3D%22244%22%20height%3D%22244%22%20rx%3D%2234%22%20stroke%3D%22url%28%23g%29%22%20stroke-width%3D%2210%22%20opacity%3D%220.55%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E",
       "status": "planned",
       "teams": null
     },
@@ -33,7 +33,7 @@ window.ESPORTS_DATA = {
       "id": "LEC",
       "region": "EMEA",
       "name": "League of Legends EMEA Championship",
-      "logo": "assets/leagues/lec.svg",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2260%22%20x2%3D%22280%22%20y2%3D%22300%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%2373E3FF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23F6FBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20opacity%3D%220.22%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M148%2056H190L156%20304H114L148%2056Z%22%20fill%3D%22url%28%23g%29%22/%3E%0A%20%20%20%20%3Ctext%20x%3D%22216%22%20y%3D%22214%22%20font-family%3D%22Arial%2C%20Helvetica%2C%20sans-serif%22%20font-size%3D%2284%22%20font-weight%3D%22900%22%20letter-spacing%3D%221%22%20text-anchor%3D%22middle%22%20fill%3D%22url%28%23g%29%22%3ELEC%3C/text%3E%0A%20%20%20%20%3Crect%20x%3D%2258%22%20y%3D%2258%22%20width%3D%22244%22%20height%3D%22244%22%20rx%3D%2234%22%20stroke%3D%22url%28%23g%29%22%20stroke-width%3D%2210%22%20opacity%3D%220.55%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E",
       "status": "active",
       "teams": 10,
       "season": "2026",
@@ -46,7 +46,7 @@ window.ESPORTS_DATA = {
       "id": "LCP",
       "region": "亞太",
       "name": "League of Legends Championship Pacific",
-      "logo": "assets/leagues/lcp.svg",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2260%22%20x2%3D%22280%22%20y2%3D%22300%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%2364D5FF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23F6FBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20opacity%3D%220.22%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M148%2056H190L156%20304H114L148%2056Z%22%20fill%3D%22url%28%23g%29%22/%3E%0A%20%20%20%20%3Ctext%20x%3D%22216%22%20y%3D%22214%22%20font-family%3D%22Arial%2C%20Helvetica%2C%20sans-serif%22%20font-size%3D%2284%22%20font-weight%3D%22900%22%20letter-spacing%3D%221%22%20text-anchor%3D%22middle%22%20fill%3D%22url%28%23g%29%22%3ELCP%3C/text%3E%0A%20%20%20%20%3Crect%20x%3D%2258%22%20y%3D%2258%22%20width%3D%22244%22%20height%3D%22244%22%20rx%3D%2234%22%20stroke%3D%22url%28%23g%29%22%20stroke-width%3D%2210%22%20opacity%3D%220.55%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E",
       "status": "planned",
       "teams": null
     },
@@ -54,7 +54,7 @@ window.ESPORTS_DATA = {
       "id": "LCS",
       "region": "美洲",
       "name": "League Championship Series",
-      "logo": "assets/leagues/lcs.svg",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2260%22%20x2%3D%22280%22%20y2%3D%22300%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%2385D9FF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23F6FBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20opacity%3D%220.22%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M148%2056H190L156%20304H114L148%2056Z%22%20fill%3D%22url%28%23g%29%22/%3E%0A%20%20%20%20%3Ctext%20x%3D%22216%22%20y%3D%22214%22%20font-family%3D%22Arial%2C%20Helvetica%2C%20sans-serif%22%20font-size%3D%2284%22%20font-weight%3D%22900%22%20letter-spacing%3D%221%22%20text-anchor%3D%22middle%22%20fill%3D%22url%28%23g%29%22%3ELCS%3C/text%3E%0A%20%20%20%20%3Crect%20x%3D%2258%22%20y%3D%2258%22%20width%3D%22244%22%20height%3D%22244%22%20rx%3D%2234%22%20stroke%3D%22url%28%23g%29%22%20stroke-width%3D%2210%22%20opacity%3D%220.55%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E",
       "status": "planned",
       "teams": null
     },
@@ -62,7 +62,7 @@ window.ESPORTS_DATA = {
       "id": "CBLOL",
       "region": "美洲",
       "name": "Campeonato Brasileiro de League of Legends",
-      "logo": "assets/leagues/cblol.svg",
+      "logo": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%20360%20360%22%20fill%3D%22none%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22g%22%20x1%3D%2270%22%20y1%3D%2260%22%20x2%3D%22280%22%20y2%3D%22300%22%20gradientUnits%3D%22userSpaceOnUse%22%3E%0A%20%20%20%20%20%20%3Cstop%20stop-color%3D%22%239DE8FF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23F6FBFF%22%20stop-opacity%3D%220.95%22/%3E%0A%20%20%20%20%3C/linearGradient%3E%0A%20%20%3C/defs%3E%0A%20%20%3Cg%20opacity%3D%220.22%22%3E%0A%20%20%20%20%3Cpath%20d%3D%22M148%2056H190L156%20304H114L148%2056Z%22%20fill%3D%22url%28%23g%29%22/%3E%0A%20%20%20%20%3Ctext%20x%3D%22216%22%20y%3D%22214%22%20font-family%3D%22Arial%2C%20Helvetica%2C%20sans-serif%22%20font-size%3D%2284%22%20font-weight%3D%22900%22%20letter-spacing%3D%221%22%20text-anchor%3D%22middle%22%20fill%3D%22url%28%23g%29%22%3ECB%3C/text%3E%0A%20%20%20%20%3Crect%20x%3D%2258%22%20y%3D%2258%22%20width%3D%22244%22%20height%3D%22244%22%20rx%3D%2234%22%20stroke%3D%22url%28%23g%29%22%20stroke-width%3D%2210%22%20opacity%3D%220.55%22/%3E%0A%20%20%3C/g%3E%0A%3C/svg%3E",
       "status": "planned",
       "teams": null
     }
