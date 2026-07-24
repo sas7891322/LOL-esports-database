@@ -24,5 +24,5 @@ button,input,select{font:inherit}.topbar{height:76px;position:sticky;top:0;z-ind
 
 .global-league-card.planned .global-league-logo{opacity:.18}
 
-.global-league-card[data-league-card="LPL"] .global-league-logo{filter:grayscale(1) brightness(1.45) contrast(1.12);mix-blend-mode:screen;opacity:.24;width:min(46%,220px);max-height:66%}
-.global-league-card[data-league-card="LPL"].active:hover .global-league-logo{opacity:.32}
+.global-league-card[data-league-card="LPL"] .global-league-logo{filter:grayscale(1) invert(1) brightness(1.25) contrast(1.12);mix-blend-mode:screen;opacity:.22;width:min(43%,205px);max-height:58%}
+.global-league-card[data-league-card="LPL"].active:hover .global-league-logo{opacity:.30}
