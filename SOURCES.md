@@ -37,3 +37,18 @@ This prototype is not yet an automated production database. Before public launch
 - CBLOL: Wikimedia Commons, `CBLOL logo.png` (League of Legends Esports source).
 
 Logos are displayed as low-opacity monochrome watermarks for league identification. League names and marks may be protected trademarks of their respective owners.
+
+## LCP 2026 Split 3 — 2026-07-25 initialization
+- Riot Games / LoL Esports: `LCP 2026 Split 3 Everything You Need To Know` — Split 3 starts July 25, runs through August 30, matchdays begin 17:00 Taiwan time, and the regular season uses the Swiss Stage format.
+- LoL Esports Split 3 standings: participating teams are CFO, DFM, Relove Deep Cross Gaming, GAM, Ground Zero Gaming, MVK Esports, Fukuoka SoftBank HAWKS gaming, and Team Secret Whales.
+- CTBC Flying Oyster roster: Rest, Shad0w, Pout, Doggo, Kino (Liquipedia / Leaguepedia current 2026 roster).
+- DetonatioN FocusMe roster: Momo, RayFarky, Citrus, Fisher, Kakkun, Woody (Liquipedia current roster).
+- Relove Deep Cross Gaming roster: Flauren, POP9, HongSuo, XiaoXiang, Feng, ShiauC (Liquipedia current roster).
+- GAM Esports roster: Kiaya, Draktharr, Gloryy, Artemis, Taki (Liquipedia current roster; Aress departed before Split 3).
+- Ground Zero Gaming Split 3 roster: 1Jiang, Husha, Uniboy, Betty, Kaiwing (Ground Zero announcements reported by Bahamut GNN / Yahoo Taiwan, July 21–22, 2026).
+- MVK Esports active roster: Kratos, Steller, Gury, SofM, NPC, Chika, Harky, SiuLoong (Liquipedia current roster).
+- Fukuoka SoftBank HAWKS gaming roster: Evi, Van, Aria, Marble, Vsta (official SoftBank HAWKS gaming team page).
+- Team Secret Whales active roster: Pun, Hiro02, Hizto, Dire, Eddie, Bie (Liquipedia / Leaguepedia current roster).
+- LCP team-card logos use current LoL Esports team image assets through Riot's Akamai image proxy.
+- Player champion arrays start empty. No prior-split champion data is carried into Split 3.
+- Patch is provisionally initialized as 26.14 to match the current live competitive patch window; it should be confirmed against the first completed Split 3 post-match record before champion statistics are ingested.

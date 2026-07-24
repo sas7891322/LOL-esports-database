@@ -29,3 +29,12 @@ This is a UI/data-architecture prototype. The sample LPL snapshot is intentional
 - Added LEC team logos.
 - Added per-league season/split/patch rendering so LPL can remain on `2026 Split 3` while LEC uses `2026 Summer`.
 - LEC champion statistics intentionally start empty and will be added only after completed Bo3 series.
+
+## 2026-07-25 LCP update
+
+- Activated LCP on the global homepage and sidebar.
+- Added all 8 LCP 2026 Split 3 teams and current active/opening rosters.
+- Added current LoL Esports team-logo assets for LCP cards.
+- LCP uses a Swiss Stage in Split 3; team records and champion statistics begin at 0-0 / empty before opening matches.
+- LCP champion data will only be added after completed series, without importing Split 1 or Split 2 champion usage.
+- Patch display is initialized to 26.14 and should be verified against the first completed Split 3 match record before stats are added.

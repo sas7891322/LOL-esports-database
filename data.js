@@ -4,8 +4,8 @@ window.ESPORTS_DATA = {
     "season": "2026",
     "split": "Split 3",
     "patch": "26.14",
-    "updated": "2026-07-24",
-    "note": "LPL 26.14 data updated through EDG 1–2 BLG; LEC 2026 Summer rosters initialized before opening matches."
+    "updated": "2026-07-25",
+    "note": "LPL 26.14 data updated through 7/24; LEC 2026 Summer rosters initialized; LCP 2026 Split 3 teams and opening rosters initialized before the July 25 opening matches."
   },
   "leagues": [
     {
@@ -47,8 +47,13 @@ window.ESPORTS_DATA = {
       "region": "亞太",
       "name": "League of Legends Championship Pacific",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/League_of_Legends_Championship_Pacific_logo.svg/960px-League_of_Legends_Championship_Pacific_logo.svg.png",
-      "status": "planned",
-      "teams": null
+      "status": "active",
+      "teams": 8,
+      "season": "2026",
+      "split": "Split 3",
+      "patch": "26.14",
+      "title": "LCP 太平洋職業聯賽資料庫",
+      "note": "2026 LCP Split 3 於 7 月 25 日開賽，例行階段首度採瑞士制。戰隊與開幕名單已建立；英雄數據將在系列賽完賽後開始累積。Patch 先以 26.14 建檔，首場完賽後再依賽後紀錄確認。"
     },
     {
       "id": "LCS",
@@ -1929,6 +1934,372 @@ window.ESPORTS_DATA = {
         }
       ],
       "group": "常規賽",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "CFO",
+      "name": "CTBC Flying Oyster",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1656307849320_CFO_Logo.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Rest",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Shad0w",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Pout",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Doggo",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "Kino",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "DFM",
+      "name": "DetonatioN FocusMe",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1673415140442_dfm.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Momo",
+          "champions": []
+        },
+        {
+          "role": "TOP",
+          "id": "RayFarky",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Citrus",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Fisher",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Kakkun",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "Woody",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "DCG",
+      "name": "Relove Deep Cross Gaming",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1773832146741_LCP_DCG_Full_W.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Flauren",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "POP9",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "HongSuo",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "XiaoXiang",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Feng",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "ShiauC",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "GAM",
+      "name": "GAM Esports",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1643263093448_GAMyellow.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Kiaya",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Draktharr",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Gloryy",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Artemis",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "Taki",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "GZ",
+      "name": "Ground Zero Gaming",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1766395585595_LCP_TEAMLogo_GZ_Full_B.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "1Jiang",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Husha",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Uniboy",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Betty",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "Kaiwing",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "MVK",
+      "name": "MVK Esports",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1767089709161_White_Logo.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Kratos",
+          "champions": []
+        },
+        {
+          "role": "TOP",
+          "id": "Steller",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Gury",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "SofM",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "NPC",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Chika",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Harky",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "SiuLoong",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "SHG",
+      "name": "Fukuoka SoftBank HAWKS gaming",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1725885083108_SHG_White_Main.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Evi",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Van",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Aria",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Marble",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "Vsta",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
+      "series": {
+        "w": 0,
+        "l": 0
+      },
+      "games": {
+        "w": 0,
+        "l": 0
+      }
+    },
+    {
+      "league": "LCP",
+      "id": "TSW",
+      "name": "Team Secret Whales",
+      "logo": "https://am-a.akamaihd.net/image?f=http%3A%2F%2Fstatic.lolesports.com%2Fteams%2F1774598000328_White_EyeText_600p.png&resize=512%3A",
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Pun",
+          "champions": []
+        },
+        {
+          "role": "TOP",
+          "id": "Hiro02",
+          "champions": []
+        },
+        {
+          "role": "JG",
+          "id": "Hizto",
+          "champions": []
+        },
+        {
+          "role": "MID",
+          "id": "Dire",
+          "champions": []
+        },
+        {
+          "role": "ADC",
+          "id": "Eddie",
+          "champions": []
+        },
+        {
+          "role": "SUP",
+          "id": "Bie",
+          "champions": []
+        }
+      ],
+      "group": "瑞士制",
       "series": {
         "w": 0,
         "l": 0
