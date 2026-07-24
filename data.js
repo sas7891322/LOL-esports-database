@@ -25,7 +25,7 @@ window.ESPORTS_DATA = {
   ],
   teams: [
     {
-      id: "AL", name: "Anyone's Legend", group: "登峰組", series: { w: 2, l: 0 }, games: { w: 4, l: 1 },
+      id: "AL", logo: "assets/teams/lpl/al.webp", name: "Anyone's Legend", group: "登峰組", series: { w: 2, l: 0 }, games: { w: 4, l: 1 },
       players: [
         { role: "TOP", id: "Breathe", champions: [
           { name: "安比薩", games: 1, wins: 0 }, { name: "卡桑帝", games: 1, wins: 1 }, { name: "吶兒", games: 1, wins: 1 }, { name: "藍寶", games: 1, wins: 1 }
@@ -46,7 +46,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "BLG", name: "Bilibili Gaming", group: "登峰組", series: { w: 1, l: 0 }, games: { w: 2, l: 1 },
+      id: "BLG", logo: "assets/teams/lpl/blg.webp", name: "Bilibili Gaming", group: "登峰組", series: { w: 1, l: 0 }, games: { w: 2, l: 1 },
       players: [
         { role: "TOP", id: "Wenbo", champions: [{ name: "約瑞科", games: 1, wins: 1 }, { name: "藍寶", games: 1, wins: 0 }, { name: "卡桑帝", games: 1, wins: 1 }]},
         { role: "TOP", id: "Bin", champions: [] },
@@ -57,7 +57,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "EDG", name: "EDward Gaming", group: "登峰組", series: { w: 0, l: 1 }, games: { w: 0, l: 2 },
+      id: "EDG", logo: "assets/teams/lpl/edg.webp", name: "EDward Gaming", group: "登峰組", series: { w: 0, l: 1 }, games: { w: 0, l: 2 },
       players: [
         { role: "TOP", id: "Zdz", champions: [{ name: "吶兒", games: 1, wins: 0 }, { name: "卡桑帝", games: 1, wins: 0 }]},
         { role: "JG", id: "Xiaohao", champions: [{ name: "李星", games: 1, wins: 0 }, { name: "嘉文四世", games: 1, wins: 0 }]},
@@ -67,7 +67,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "JDG", name: "JD Gaming", group: "登峰組", series: { w: 0, l: 2 }, games: { w: 2, l: 4 },
+      id: "JDG", logo: "assets/teams/lpl/jdg.webp", name: "JD Gaming", group: "登峰組", series: { w: 0, l: 2 }, games: { w: 2, l: 4 },
       players: [
         { role: "TOP", id: "Xiaoxu", champions: [
           { name: "吶兒", games: 1, wins: 1 }, { name: "藍寶", games: 1, wins: 0 }, { name: "杰西", games: 1, wins: 0 },
@@ -92,7 +92,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "LGD", name: "LGD Gaming", group: "登峰組", series: { w: 1, l: 1 }, games: { w: 2, l: 2 },
+      id: "LGD", logo: "assets/teams/lpl/lgd.webp", name: "LGD Gaming", group: "登峰組", series: { w: 1, l: 1 }, games: { w: 2, l: 2 },
       players: [
         { role: "TOP", id: "Burdol", champions: [{ name: "安比薩", games: 2, wins: 1 }, { name: "藍寶", games: 1, wins: 1 }, { name: "杰西", games: 1, wins: 0 }]},
         { role: "JG", id: "Heng", champions: [{ name: "史加納", games: 2, wins: 1 }, { name: "姬亞娜", games: 2, wins: 1 }]},
@@ -102,7 +102,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "TES", name: "Top Esports", group: "登峰組", series: { w: 1, l: 0 }, games: { w: 2, l: 0 },
+      id: "TES", logo: "assets/teams/lpl/tes.webp", name: "Top Esports", group: "登峰組", series: { w: 1, l: 0 }, games: { w: 2, l: 0 },
       players: [
         { role: "TOP", id: "ZUIAN", champions: [{ name: "卡桑帝", games: 1, wins: 1 }, { name: "安比薩", games: 1, wins: 1 }]},
         { role: "TOP", id: "369", champions: [] },
@@ -113,7 +113,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "TT", name: "ThunderTalk Gaming", group: "登峰組", series: { w: 0, l: 1 }, games: { w: 1, l: 2 },
+      id: "TT", logo: "assets/teams/lpl/tt.webp", name: "ThunderTalk Gaming", group: "登峰組", series: { w: 0, l: 1 }, games: { w: 1, l: 2 },
       players: [
         { role: "TOP", id: "Keshi", champions: [{ name: "杰西", games: 1, wins: 0 }, { name: "安比薩", games: 1, wins: 1 }, { name: "逆命", games: 1, wins: 0 }]},
         { role: "JG", id: "Junhao", champions: [{ name: "趙信", games: 1, wins: 0 }, { name: "李星", games: 1, wins: 1 }, { name: "姬亞娜", games: 1, wins: 0 }]},
@@ -124,7 +124,7 @@ window.ESPORTS_DATA = {
       ]
     },
     {
-      id: "WE", name: "Team WE", group: "登峰組", series: { w: 1, l: 1 }, games: { w: 2, l: 3 },
+      id: "WE", logo: "assets/teams/lpl/we.webp", name: "Team WE", group: "登峰組", series: { w: 1, l: 1 }, games: { w: 2, l: 3 },
       players: [
         { role: "TOP", id: "Cube", champions: [
           { name: "藍寶", games: 2, wins: 1 }, { name: "吶兒", games: 1, wins: 0 }, { name: "厄薩斯", games: 1, wins: 0 }, { name: "杰西", games: 1, wins: 1 }
@@ -143,16 +143,16 @@ window.ESPORTS_DATA = {
         ]}
       ]
     },
-    { id: "IG", name: "Invictus Gaming", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
+    { id: "IG", logo: "assets/teams/lpl/ig.webp", name: "Invictus Gaming", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
       { role: "TOP", id: "TheShy", champions: [] }, { role: "JG", id: "Wei", champions: [] }, { role: "MID", id: "Rookie", champions: [] }, { role: "ADC", id: "Assum", champions: [] }, { role: "SUP", id: "Meiko", champions: [] }
     ]},
-    { id: "LNG", name: "LNG Esports", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
+    { id: "LNG", logo: "assets/teams/lpl/lng.webp", name: "LNG Esports", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
       { role: "TOP", id: "sheer", champions: [] }, { role: "JG", id: "Weiwei", champions: [] }, { role: "MID", id: "Nia", champions: [] }, { role: "ADC", id: "1xn", champions: [] }, { role: "SUP", id: "Ycx", champions: [] }, { role: "SUP", id: "Missing", champions: [] }
     ]},
-    { id: "NIP", name: "Ninjas in Pyjamas", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
+    { id: "NIP", logo: "assets/teams/lpl/nip.webp", name: "Ninjas in Pyjamas", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
       { role: "TOP", id: "HOYA", champions: [] }, { role: "JG", id: "Guwon", champions: [] }, { role: "MID", id: "Care", champions: [] }, { role: "ADC", id: "Photic", champions: [] }, { role: "SUP", id: "fengyue", champions: [] }
     ]},
-    { id: "WBG", name: "Weibo Gaming", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
+    { id: "WBG", logo: "assets/teams/lpl/wbg.webp", name: "Weibo Gaming", group: "涅槃組", series: { w: 0, l: 0 }, games: { w: 0, l: 0 }, players: [
       { role: "TOP", id: "Zika", champions: [] }, { role: "JG", id: "Jiejie", champions: [] }, { role: "MID", id: "Xiaohu", champions: [] }, { role: "ADC", id: "Elk", champions: [] }, { role: "SUP", id: "Jwei", champions: [] }, { role: "SUP", id: "Moham", champions: [] }
     ]}
   ]

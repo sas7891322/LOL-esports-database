@@ -61,8 +61,10 @@ function renderHome(){
 
 function teamCard(t){
   const hasData=champCount(t)>0;
-  return `<article class="team-card ${hasData?'':'empty'}" data-team="${t.id}">
-    <div class="team-badge">${t.id}</div><h3>${esc(t.name)}</h3><p>${hasData?`${t.players.length} 名選手 · ${champCount(t)} 筆英雄紀錄`:'26.14 尚未完成系列'}</p>
+  const logoStyle = t.logo ? `style="--team-logo: url('${esc(t.logo)}')"` : '';
+  return `<article class="team-card ${hasData?'':'empty'}" data-team="${t.id}" ${logoStyle}>
+    <div class="team-card-bg" aria-hidden="true"></div>
+    <h3>${esc(t.name)}</h3><p>${hasData?`${t.players.length} 名選手 · ${champCount(t)} 筆英雄紀錄`:'26.14 尚未完成系列'}</p>
     <div class="team-record"><span><strong>${t.series.w}-${t.series.l}</strong>系列</span><span><strong>${t.games.w}-${t.games.l}</strong>小局</span></div>
     <span class="group-chip">${t.group}</span></article>`;
 }
