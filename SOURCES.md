@@ -26,3 +26,14 @@ This prototype is not yet an automated production database. Before public launch
 - Team WE 2–1 JD Gaming — Patch 26.14 post-match game drafts and results.
 - EDward Gaming 1–2 Bilibili Gaming — Patch 26.14 post-match game drafts and results.
 - Riot Games zh-TW champion pages / Patch 26.14 notes used for Taiwan server champion naming (e.g. 洛克、汎、悟空).
+
+
+## League logos (homepage watermark upgrade)
+- LPL: current LPL identity mark, recreated as a lightweight transparent SVG watermark from the league's 2020 rebrand visual.
+- LCK: Wikimedia Commons, `League of Legends Champions Korea logo.svg` (source identifies the 2021-present LCK mark).
+- LEC: Wikimedia Commons, `League of Legends EMEA Championship.png` (Riot Games / LoL Esports source).
+- LCP: Wikimedia Commons, `League of Legends Championship Pacific logo.svg` (Riot Games source).
+- LCS: Wikimedia Commons, `League championship series logo 2021.svg` (Riot Games source).
+- CBLOL: Wikimedia Commons, `CBLOL logo.png` (League of Legends Esports source).
+
+Logos are displayed as low-opacity monochrome watermarks for league identification. League names and marks may be protected trademarks of their respective owners.

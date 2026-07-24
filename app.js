@@ -76,9 +76,8 @@ function renderGlobalHome(){
     const matches = leagueMatches(l.id);
     const active = l.status==='active';
     const loaded = teams.filter(t=>champCount(t)>0).length;
-    const logoStyle = l.logo ? `style="--league-logo: url('${esc(l.logo)}')"` : '';
-    return `<article class="global-league-card ${active?'active':'planned'}" ${active?`data-home-league="${l.id}"`:''} ${logoStyle}>
-      <div class="global-league-bg" aria-hidden="true"></div>
+    return `<article class="global-league-card ${active?'active':'planned'}" data-league-card="${l.id}" ${active?`data-home-league="${l.id}"`:''}>
+      ${l.logo?`<img class="global-league-logo" src="${esc(l.logo)}" alt="" aria-hidden="true" loading="lazy" referrerpolicy="no-referrer">`:''}
       <div class="global-card-top"><span class="global-region">${esc(l.region)}</span></div>
       <div class="global-code">${esc(l.id)}</div>
       <h3>${esc(l.name)}</h3>
