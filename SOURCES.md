@@ -52,3 +52,9 @@ Logos are displayed as low-opacity monochrome watermarks for league identificati
 - LCP team-card logos use current LoL Esports team image assets through Riot's Akamai image proxy.
 - Player champion arrays start empty. No prior-split champion data is carried into Split 3.
 - Patch is provisionally initialized as 26.14 to match the current live competitive patch window; it should be confirmed against the first completed Split 3 post-match record before champion statistics are ingested.
+
+
+## Patch 26.14 update — 2026-07-26
+- LPL July 25 post-match threads: LGD vs WE, IG vs WBG, TES vs TT (Reddit Post-Match Team / Games of Legends cross-check).
+- LEC Week 1 post-match threads: MKOI vs G2, KC vs VIT; both explicitly list Patch 26.14. VIT vs G2 intentionally excluded.
+- LCP July 25 series results: GZ 0-2 MVK and SHG 0-2 TSW. Detailed champion picks not entered until independently verifiable.

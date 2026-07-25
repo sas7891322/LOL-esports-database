@@ -145,10 +145,16 @@ function renderHome(){
 
 function teamCard(t,l){
   const hasData=champCount(t)>0;
+  const hasSeries=(t.series.w+t.series.l)>0;
   const logoStyle = t.logo ? `style="--team-logo: url('${esc(t.logo)}')"` : '';
-  return `<article class="team-card ${hasData?'':'empty'}" data-team="${t.id}" ${logoStyle}>
+  const statusText = hasData
+    ? `${t.players.length} 名選手 · ${champCount(t)} 筆英雄紀錄`
+    : hasSeries
+      ? `${esc(compPatch(l))} 系列已建檔 · 英雄資料待補`
+      : `${esc(compPatch(l))} 尚未完成系列`;
+  return `<article class="team-card ${(!hasData&&!hasSeries)?'empty':''}" data-team="${t.id}" ${logoStyle}>
     <div class="team-card-bg" aria-hidden="true"></div>
-    <h3>${esc(t.name)}</h3><p>${hasData?`${t.players.length} 名選手 · ${champCount(t)} 筆英雄紀錄`:`${esc(compPatch(l))} 尚未完成系列`}</p>
+    <h3>${esc(t.name)}</h3><p>${statusText}</p>
     <div class="team-record"><span><strong>${t.series.w}-${t.series.l}</strong>系列</span><span><strong>${t.games.w}-${t.games.l}</strong>小局</span></div>
     <span class="group-chip">${esc(t.group)}</span></article>`;
 }

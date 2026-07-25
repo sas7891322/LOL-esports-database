@@ -38,3 +38,9 @@ This is a UI/data-architecture prototype. The sample LPL snapshot is intentional
 - LCP uses a Swiss Stage in Split 3; team records and champion statistics begin at 0-0 / empty before opening matches.
 - LCP champion data will only be added after completed series, without importing Split 1 or Split 2 champion usage.
 - Patch display is initialized to 26.14 and should be verified against the first completed Split 3 match record before stats are added.
+
+
+## 2026-07-26 Patch 26.14 update
+- LPL: all completed series through July 25 are included with player/champion win-loss aggregation.
+- LEC: MKOI 1-2 G2 and KC 2-0 VIT are included; VIT vs G2 is intentionally excluded for now.
+- LCP: GZ 0-2 MVK and SHG 0-2 TSW series results are included. Champion-level picks remain pending until a reliable post-match source is available.
