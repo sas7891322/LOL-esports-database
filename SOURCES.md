@@ -58,3 +58,12 @@ Logos are displayed as low-opacity monochrome watermarks for league identificati
 - LPL July 25 post-match threads: LGD vs WE, IG vs WBG, TES vs TT (Reddit Post-Match Team / Games of Legends cross-check).
 - LEC Week 1 post-match threads: MKOI vs G2, KC vs VIT; both explicitly list Patch 26.14. VIT vs G2 intentionally excluded.
 - LCP July 25 series results: GZ 0-2 MVK and SHG 0-2 TSW. Detailed champion picks not entered until independently verifiable.
+
+
+## V11 verification sources (2026-07-29)
+
+- Riot / LoL Esports schedules and league handbook for Tier 1 league structure and official schedules.
+- Games of Legends tournament match lists for LPL / LEC / CBLOL patch and series confirmation.
+- Liquipedia / Leaguepedia league pages for tournament formats, teams and standings.
+- Escorenews result pages for CBLOL Week 1 and additional series cross-checking.
+- Oracle's Elixir documentation consulted for data schema; its current notice states some 2026 Fearless Draft champion selections may be incorrect, so unverified new champion picks are intentionally left pending.

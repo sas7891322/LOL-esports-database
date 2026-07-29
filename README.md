@@ -44,3 +44,12 @@ This is a UI/data-architecture prototype. The sample LPL snapshot is intentional
 - LPL: all completed series through July 25 are included with player/champion win-loss aggregation.
 - LEC: MKOI 1-2 G2 and KC 2-0 VIT are included; VIT vs G2 is intentionally excluded for now.
 - LCP: GZ 0-2 MVK and SHG 0-2 TSW series results are included. Champion-level picks remain pending until a reliable post-match source is available.
+
+
+## V11 — 五大區域 26.14 快照（2026-07-29）
+
+- 六個 Tier 1 聯賽入口全部啟用：LPL、LCK、LEC、LCP、LCS、CBLOL。
+- 五大區域（中國、韓國、EMEA、亞太、美洲）均已建立戰隊框架。
+- 納入截至 7/26 可交叉驗證的完賽系列；G2 vs VIT 依使用者要求排除。
+- 7/29 LPL／LCK 對局等待可靠最終賽果後補入，避免寫入未驗證資料。
+- V10 之後新增系列先建立系列／小局戰績，英雄選角標記為待補。
