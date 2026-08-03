@@ -3546,7 +3546,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "GEN",
-      "logo": "assets/teams/lck/gen.svg",
+      "logo": "assets/teams/lck/gen.png",
       "name": "Gen.G Esports",
       "group": "Legend Group",
       "series": {
@@ -3564,7 +3564,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "T1",
-      "logo": "assets/teams/lck/t1.svg",
+      "logo": "assets/teams/lck/t1.png",
       "name": "T1",
       "group": "Legend Group",
       "series": {
@@ -3582,7 +3582,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "HLE",
-      "logo": "assets/teams/lck/hle.svg",
+      "logo": "assets/teams/lck/hle.png",
       "name": "Hanwha Life Esports",
       "group": "Legend Group",
       "series": {
@@ -3600,7 +3600,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "KT",
-      "logo": "assets/teams/lck/kt.svg",
+      "logo": "assets/teams/lck/kt.png",
       "name": "kt Rolster",
       "group": "Legend Group",
       "series": {
@@ -3618,7 +3618,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "DK",
-      "logo": "assets/teams/lck/dk.svg",
+      "logo": "assets/teams/lck/dk.png",
       "name": "Dplus KIA",
       "group": "Legend Group",
       "series": {
@@ -3636,7 +3636,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "BFX",
-      "logo": "assets/teams/lck/bfx.svg",
+      "logo": "assets/teams/lck/bfx.png",
       "name": "BNK FEARX",
       "group": "Rise Group",
       "series": {
@@ -3654,7 +3654,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "DNS",
-      "logo": "assets/teams/lck/dns.svg",
+      "logo": "assets/teams/lck/dns.png",
       "name": "DN SOOPers",
       "group": "Rise Group",
       "series": {
@@ -3672,7 +3672,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "BRO",
-      "logo": "assets/teams/lck/bro.svg",
+      "logo": "assets/teams/lck/bro.png",
       "name": "HANJIN BRION",
       "group": "Rise Group",
       "series": {
@@ -3690,7 +3690,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "KRX",
-      "logo": "assets/teams/lck/krx.svg",
+      "logo": "assets/teams/lck/krx.png",
       "name": "KIWOOM DRX",
       "group": "Rise Group",
       "series": {
@@ -3708,7 +3708,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "NS",
-      "logo": "assets/teams/lck/ns.svg",
+      "logo": "assets/teams/lck/ns.png",
       "name": "NONGSHIM RED FORCE",
       "group": "Rise Group",
       "series": {
