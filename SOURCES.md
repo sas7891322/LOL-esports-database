@@ -2,7 +2,7 @@
 
 Updated: 2026-08-03 Asia/Taipei
 
-This build keeps the V12H champion-level work intact and synchronizes the additional independently verified LCP result available on Aug 3.
+This build keeps the existing verified league data intact and completes the LCP champion-level backfill through Aug 2.
 
 ## Verification policy
 
@@ -17,7 +17,8 @@ This build keeps the V12H champion-level work intact and synchronizes the additi
 - Added DetonatioN FocusMe 0-2 Deep Cross Gaming from Aug 1.
 - LCP snapshot is now 11 recorded series / 26 individual games through Aug 2.
 - DFM is updated to 1-2 series / 2-5 games; DCG is updated to 2-1 series / 4-3 games.
-- LCP champion-level backfill remains pending. During this pass, partial current-source champion data was cross-checked but not written because not every map/player attribution could be independently reconstructed without guessing.
+- LCP champion-level backfill is complete for all 11 recorded series / 26 games through Aug 2. Current Games of Legends game pages, player match lists, and tournament-scoped player champion pools were cross-checked for player-to-champion attribution and result consistency.
+- Validation result: 260 player-game champion records across the eight LCP teams; every active starter champion-game total matches the team map count and every champion-win total matches the team map wins; all LCP `pendingChampionSeries` values are 0.
 
 ## Other leagues
 
