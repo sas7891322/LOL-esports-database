@@ -5,7 +5,7 @@ window.ESPORTS_DATA = {
     "split": "Split 3",
     "patch": "26.14",
     "updated": "2026-08-03",
-    "note": "Patch 26.14 snapshot: LPL, LCK and LEC recorded series through August 2 include full game-by-game player champion picks. LEC continues to exclude G2 vs VIT by request; LCP now includes the verified Aug 1 DFM 0-2 DCG result, while LCP/LCS/CBLOL champion picks remain progressively backfilled."
+    "note": "Patch 26.14 snapshot: LPL, LCK, LEC and LCP recorded series through August 2 include full game-by-game player champion picks. LEC continues to exclude G2 vs VIT by request; LCS/CBLOL champion picks remain progressively backfilled, with FlyQuest complete through Aug 1."
   },
   "leagues": [
     {
@@ -58,7 +58,7 @@ window.ESPORTS_DATA = {
       "split": "Split 3",
       "patch": "26.14",
       "title": "LCP 太平洋職業聯賽資料庫",
-      "note": "2026 LCP Split 3 · Patch 26.14。已更新至 8/2 可確認系列；8/1 DCG vs DFM 已知勝方但最終小局比分待驗證，暫不寫入。"
+      "note": "2026 LCP Split 3 · Patch 26.14。已更新至 8/2 的 11 個完賽系列、26 個小局；逐局選手英雄與勝敗資料已全部補齊。"
     },
     {
       "id": "LCS",
@@ -71,7 +71,7 @@ window.ESPORTS_DATA = {
       "split": "Summer",
       "patch": "26.14",
       "title": "LCS 夏季賽資料庫",
-      "note": "2026 LCS Summer · Patch 26.14。已更新至 8/2 Week 2 完賽系列；新系列英雄資料待補。"
+      "note": "2026 LCS Summer · Patch 26.14。已更新至 8/2 Week 2 完賽系列；FlyQuest 截至 8/1 的 2 個系列、4 個小局已完成逐局英雄回填，其餘戰隊依序補齊。"
     },
     {
       "id": "CBLOL",
@@ -8054,10 +8054,136 @@ window.ESPORTS_DATA = {
         "w": 2,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Gakgos",
+          "champions": [
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "歐拉夫",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "厄薩斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Gryffinn",
+          "champions": [
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希瓦娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "潘森",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Quad",
+          "champions": [
+            {
+              "name": "阿卡莉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Massu",
+          "champions": [
+            {
+              "name": "希格斯",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "賽勒斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Cryogen",
+          "champions": [
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        }
+      ],
       "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "LYON",

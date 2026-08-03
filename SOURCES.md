@@ -1,8 +1,8 @@
-# RIFT DB V12I — Sources & Verification Notes
+# RIFT DB V12J — Sources & Verification Notes
 
 Updated: 2026-08-03 Asia/Taipei
 
-This build keeps the existing verified league data intact and completes the LCP champion-level backfill through Aug 2.
+This build keeps the existing verified league data intact, preserves the completed LCP backfill, and adds FlyQuest champion-level data for both recorded LCS series through Aug 1.
 
 ## Verification policy
 
@@ -25,5 +25,11 @@ This build keeps the existing verified league data intact and completes the LCP 
 - LPL: 26 series / 63 games, champion-level backfill complete for recorded series.
 - LCK: 9 series / 22 games currently recorded; DNS vs BRO withheld as above.
 - LEC: 11 series / 28 games, champion-level backfill complete; G2 vs VIT excluded by request.
-- LCS: 8 series / 18 games; champion backfill remains in progress.
+## LCS — FlyQuest
+
+- FlyQuest 0-2 LYON (Jul 25): both maps were verified from the LCS post-match game tables, including direct player-to-champion attribution.
+- FlyQuest 2-0 Disguised (Aug 1): both maps were cross-checked against RFT's game builds/series scoreboard; FLY used Aatrox / Shyvana / Orianna / Ziggs / Camille in Game 1 and Rumble / Pantheon / Cassiopeia / Ezreal / Bard in Game 2.
+- FLY validation: 4 maps total, 20 player-game champion records; all five starters have exactly 4 champion-games and 2 champion-wins. `pendingChampionSeries` is now 0 for FLY.
+- LCS overall remains 8 recorded series / 18 games; champion backfill is complete for 1/8 teams and remains in progress for the other seven.
+
 - CBLOL: 8 series / 18 games; champion backfill remains in progress.
