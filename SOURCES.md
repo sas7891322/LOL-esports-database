@@ -1,4 +1,4 @@
-# RIFT DB V12 — Sources & Verification Notes
+# RIFT DB V12G — Sources & Verification Notes
 
 Updated: 2026-08-03 09:41 Asia/Taipei
 
@@ -10,11 +10,11 @@ This build extends the V11 snapshot with completed Patch 26.14 series through th
 - G2 vs VIT remains excluded by user request.
 - LCK DNS vs BRO (Aug 2) is not written because a reliable final map score was not available during verification.
 - LCP DCG vs DFM (Aug 1) is not written because the winner could be established but the exact final map score could not be independently confirmed.
-- New series added after V11 are marked as pending champion-level verification.
+- LPL and the currently recorded LCK series have completed game-by-game champion verification; remaining leagues continue to use pending markers where champion picks are not yet backfilled.
 
 ## LPL
 
-Results cross-checked against LPL post-match threads / schedule and final Group Ascend standings. Patch 26.14 is explicitly shown in current Split 3 post-match material. Added through Aug 2, including TES 2-0 JDG and LNG 0-2 IG.
+Results and game-by-game picks were cross-checked against LPL Split 3 post-match material. The database now covers all 26 recorded series through Aug 2 (63 individual games) at champion level: 630 player-game champion records in total. All 12 LPL teams now have champion data, and `pendingChampionSeries` is cleared for every LPL team.
 
 ## LCK
 
