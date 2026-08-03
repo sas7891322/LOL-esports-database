@@ -4,8 +4,8 @@ window.ESPORTS_DATA = {
     "season": "2026",
     "split": "Split 3",
     "patch": "26.14",
-    "updated": "2026-07-29",
-    "note": "Patch 26.14 global snapshot through independently verified completed series as of 2026-07-29. G2–VIT remains excluded by request. July 29 LPL/LCK series are not written until final results can be independently verified. New post-V10 series are recorded at series/game level; champion picks remain marked pending verification."
+    "updated": "2026-07-26",
+    "note": "Patch 26.14 snapshot: LPL updated through all July 25 completed series; LEC includes MKOI–G2 and KC–VIT only (VIT–G2 excluded by request); LCP includes July 25 opening series results, with champion-level picks pending verification."
   },
   "leagues": [
     {
@@ -19,20 +19,15 @@ window.ESPORTS_DATA = {
       "split": "Split 3",
       "patch": "26.14",
       "title": "中國職業聯賽資料庫",
-      "note": "已納入截至 7/26 可獨立驗證的 Patch 26.14 完賽系列；7/29 對局等待最終結果驗證後補入。"
+      "note": "2026 LPL Split 3 · Patch 26.14。已納入截至 7/25 全部完賽系列與逐局英雄資料。"
     },
     {
       "id": "LCK",
       "region": "韓國",
       "name": "League of Legends Champions Korea",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/League_of_Legends_Champions_Korea_logo.svg/960px-League_of_Legends_Champions_Korea_logo.svg.png",
-      "status": "active",
-      "teams": 10,
-      "season": "2026",
-      "split": "Rounds 3–4",
-      "patch": "26.14",
-      "title": "韓國職業聯賽資料庫",
-      "note": "戰隊架構已建立。7/29 開幕系列因最終賽果尚未取得可靠交叉來源，暫不寫入。"
+      "status": "planned",
+      "teams": null
     },
     {
       "id": "LEC",
@@ -45,7 +40,7 @@ window.ESPORTS_DATA = {
       "split": "Summer",
       "patch": "26.14",
       "title": "LEC 夏季賽資料庫",
-      "note": "已納入截至 7/26 的完賽系列；依使用者要求持續排除 G2 vs VIT。"
+      "note": "2026 LEC Summer · Patch 26.14。已納入 MKOI 1–2 G2、KC 2–0 VIT；依要求暫不納入 VIT vs G2。"
     },
     {
       "id": "LCP",
@@ -58,33 +53,23 @@ window.ESPORTS_DATA = {
       "split": "Split 3",
       "patch": "26.14",
       "title": "LCP 太平洋職業聯賽資料庫",
-      "note": "已納入首輪四個 Patch 26.14 完賽系列；逐局英雄資料待可靠賽後來源補齊。"
+      "note": "2026 LCP Split 3 · Patch 26.14。已納入 7/25 GZ 0–2 MVK、SHG 0–2 TSW 系列結果；逐局英雄資料等待可驗證賽後來源後補入。"
     },
     {
       "id": "LCS",
       "region": "美洲",
       "name": "League Championship Series",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/7/71/League_championship_series_logo_2021.svg",
-      "status": "active",
-      "teams": 8,
-      "season": "2026",
-      "split": "Summer",
-      "patch": "26.14",
-      "title": "LCS 夏季賽資料庫",
-      "note": "已納入 7/25–7/26 開幕週四個完賽系列；逐局英雄資料待補。"
+      "status": "planned",
+      "teams": null
     },
     {
       "id": "CBLOL",
       "region": "美洲",
       "name": "Campeonato Brasileiro de League of Legends",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1e/CBLOL_logo.png",
-      "status": "active",
-      "teams": 8,
-      "season": "2026",
-      "split": "Split 2",
-      "patch": "26.14",
-      "title": "CBLOL 第二賽段資料庫",
-      "note": "已納入 7/25–7/26 開幕週四個完賽系列；逐局英雄資料待補。"
+      "status": "planned",
+      "teams": null
     }
   ],
   "matches": [
@@ -135,15 +120,6 @@ window.ESPORTS_DATA = {
     },
     {
       "date": "07/24",
-      "a": "EDG",
-      "b": "BLG",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LPL"
-    },
-    {
-      "date": "07/24",
       "a": "WE",
       "b": "JDG",
       "scoreA": 2,
@@ -153,35 +129,8 @@ window.ESPORTS_DATA = {
     },
     {
       "date": "07/24",
-      "a": "KC",
-      "b": "VIT",
-      "scoreA": 2,
-      "scoreB": 0,
-      "patch": "26.14",
-      "league": "LEC"
-    },
-    {
-      "date": "07/24",
-      "a": "MKOI",
-      "b": "G2",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LEC"
-    },
-    {
-      "date": "07/25",
-      "a": "TT",
-      "b": "TES",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LPL"
-    },
-    {
-      "date": "07/25",
-      "a": "WBG",
-      "b": "IG",
+      "a": "EDG",
+      "b": "BLG",
       "scoreA": 1,
       "scoreB": 2,
       "patch": "26.14",
@@ -198,8 +147,35 @@ window.ESPORTS_DATA = {
     },
     {
       "date": "07/25",
+      "a": "WBG",
+      "b": "IG",
+      "scoreA": 1,
+      "scoreB": 2,
+      "patch": "26.14",
+      "league": "LPL"
+    },
+    {
+      "date": "07/25",
+      "a": "TT",
+      "b": "TES",
+      "scoreA": 1,
+      "scoreB": 2,
+      "patch": "26.14",
+      "league": "LPL"
+    },
+    {
+      "date": "07/24",
+      "a": "MKOI",
+      "b": "G2",
+      "scoreA": 1,
+      "scoreB": 2,
+      "patch": "26.14",
+      "league": "LEC"
+    },
+    {
+      "date": "07/24",
       "a": "KC",
-      "b": "MKOI",
+      "b": "VIT",
       "scoreA": 2,
       "scoreB": 0,
       "patch": "26.14",
@@ -222,141 +198,6 @@ window.ESPORTS_DATA = {
       "scoreB": 2,
       "patch": "26.14",
       "league": "LCP"
-    },
-    {
-      "date": "07/25",
-      "a": "DIG",
-      "b": "SEN",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LCS"
-    },
-    {
-      "date": "07/25",
-      "a": "FLY",
-      "b": "LYON",
-      "scoreA": 0,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LCS"
-    },
-    {
-      "date": "07/25",
-      "a": "FUR",
-      "b": "LOS",
-      "scoreA": 0,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "CBLOL"
-    },
-    {
-      "date": "07/25",
-      "a": "PNG",
-      "b": "LOUD",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "CBLOL"
-    },
-    {
-      "date": "07/26",
-      "a": "AL",
-      "b": "BLG",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LPL"
-    },
-    {
-      "date": "07/26",
-      "a": "LNG",
-      "b": "NIP",
-      "scoreA": 0,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LPL"
-    },
-    {
-      "date": "07/26",
-      "a": "TT",
-      "b": "EDG",
-      "scoreA": 2,
-      "scoreB": 0,
-      "patch": "26.14",
-      "league": "LPL"
-    },
-    {
-      "date": "07/26",
-      "a": "G2",
-      "b": "KC",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LEC"
-    },
-    {
-      "date": "07/26",
-      "a": "MKOI",
-      "b": "VIT",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LEC"
-    },
-    {
-      "date": "07/26",
-      "a": "CFO",
-      "b": "DCG",
-      "scoreA": 2,
-      "scoreB": 0,
-      "patch": "26.14",
-      "league": "LCP"
-    },
-    {
-      "date": "07/26",
-      "a": "DFM",
-      "b": "GAM",
-      "scoreA": 0,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LCP"
-    },
-    {
-      "date": "07/26",
-      "a": "C9",
-      "b": "TL",
-      "scoreA": 0,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LCS"
-    },
-    {
-      "date": "07/26",
-      "a": "DSG",
-      "b": "SR",
-      "scoreA": 0,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "LCS"
-    },
-    {
-      "date": "07/26",
-      "a": "FXW7",
-      "b": "LEV",
-      "scoreA": 2,
-      "scoreB": 0,
-      "patch": "26.14",
-      "league": "CBLOL"
-    },
-    {
-      "date": "07/26",
-      "a": "RED",
-      "b": "VKS",
-      "scoreA": 1,
-      "scoreB": 2,
-      "patch": "26.14",
-      "league": "CBLOL"
     }
   ],
   "teams": [
@@ -367,11 +208,11 @@ window.ESPORTS_DATA = {
       "group": "登峰組",
       "series": {
         "w": 2,
-        "l": 1
+        "l": 0
       },
       "games": {
-        "w": 5,
-        "l": 3
+        "w": 4,
+        "l": 1
       },
       "players": [
         {
@@ -511,8 +352,7 @@ window.ESPORTS_DATA = {
           ]
         }
       ],
-      "league": "LPL",
-      "pendingChampionSeries": 1
+      "league": "LPL"
     },
     {
       "id": "BLG",
@@ -520,12 +360,12 @@ window.ESPORTS_DATA = {
       "name": "Bilibili Gaming",
       "group": "登峰組",
       "series": {
-        "w": 3,
+        "w": 2,
         "l": 0
       },
       "games": {
-        "w": 6,
-        "l": 3
+        "w": 4,
+        "l": 2
       },
       "players": [
         {
@@ -694,8 +534,7 @@ window.ESPORTS_DATA = {
           ]
         }
       ],
-      "league": "LPL",
-      "pendingChampionSeries": 1
+      "league": "LPL"
     },
     {
       "id": "EDG",
@@ -704,11 +543,11 @@ window.ESPORTS_DATA = {
       "group": "登峰組",
       "series": {
         "w": 0,
-        "l": 3
+        "l": 2
       },
       "games": {
         "w": 1,
-        "l": 6
+        "l": 4
       },
       "players": [
         {
@@ -857,8 +696,7 @@ window.ESPORTS_DATA = {
           ]
         }
       ],
-      "league": "LPL",
-      "pendingChampionSeries": 1
+      "league": "LPL"
     },
     {
       "id": "JDG",
@@ -1382,11 +1220,11 @@ window.ESPORTS_DATA = {
       "name": "ThunderTalk Gaming",
       "group": "登峰組",
       "series": {
-        "w": 1,
+        "w": 0,
         "l": 2
       },
       "games": {
-        "w": 4,
+        "w": 2,
         "l": 4
       },
       "players": [
@@ -1551,8 +1389,7 @@ window.ESPORTS_DATA = {
           ]
         }
       ],
-      "league": "LPL",
-      "pendingChampionSeries": 1
+      "league": "LPL"
     },
     {
       "id": "WE",
@@ -1875,11 +1712,11 @@ window.ESPORTS_DATA = {
       "group": "涅槃組",
       "series": {
         "w": 0,
-        "l": 1
+        "l": 0
       },
       "games": {
         "w": 0,
-        "l": 2
+        "l": 0
       },
       "players": [
         {
@@ -1913,8 +1750,7 @@ window.ESPORTS_DATA = {
           "champions": []
         }
       ],
-      "league": "LPL",
-      "pendingChampionSeries": 1
+      "league": "LPL"
     },
     {
       "id": "NIP",
@@ -1922,11 +1758,11 @@ window.ESPORTS_DATA = {
       "name": "Ninjas in Pyjamas",
       "group": "涅槃組",
       "series": {
-        "w": 1,
+        "w": 0,
         "l": 0
       },
       "games": {
-        "w": 2,
+        "w": 0,
         "l": 0
       },
       "players": [
@@ -1956,8 +1792,7 @@ window.ESPORTS_DATA = {
           "champions": []
         }
       ],
-      "league": "LPL",
-      "pendingChampionSeries": 1
+      "league": "LPL"
     },
     {
       "id": "WBG",
@@ -2243,13 +2078,12 @@ window.ESPORTS_DATA = {
       "group": "常規賽",
       "series": {
         "w": 1,
-        "l": 1
+        "l": 0
       },
       "games": {
-        "w": 3,
-        "l": 3
-      },
-      "pendingChampionSeries": 1
+        "w": 2,
+        "l": 1
+      }
     },
     {
       "league": "LEC",
@@ -2382,14 +2216,13 @@ window.ESPORTS_DATA = {
       ],
       "group": "常規賽",
       "series": {
-        "w": 3,
+        "w": 1,
         "l": 0
       },
       "games": {
-        "w": 6,
-        "l": 1
-      },
-      "pendingChampionSeries": 2
+        "w": 2,
+        "l": 0
+      }
     },
     {
       "league": "LEC",
@@ -2506,13 +2339,12 @@ window.ESPORTS_DATA = {
       "group": "常規賽",
       "series": {
         "w": 0,
-        "l": 3
+        "l": 1
       },
       "games": {
-        "w": 2,
-        "l": 6
-      },
-      "pendingChampionSeries": 2
+        "w": 1,
+        "l": 2
+      }
     },
     {
       "league": "LEC",
@@ -2771,14 +2603,13 @@ window.ESPORTS_DATA = {
       ],
       "group": "常規賽",
       "series": {
-        "w": 1,
+        "w": 0,
         "l": 1
       },
       "games": {
-        "w": 2,
-        "l": 3
-      },
-      "pendingChampionSeries": 1
+        "w": 0,
+        "l": 2
+      }
     },
     {
       "league": "LCP",
@@ -2814,14 +2645,13 @@ window.ESPORTS_DATA = {
       ],
       "group": "瑞士制",
       "series": {
-        "w": 1,
+        "w": 0,
         "l": 0
       },
       "games": {
-        "w": 2,
+        "w": 0,
         "l": 0
-      },
-      "pendingChampionSeries": 1
+      }
     },
     {
       "league": "LCP",
@@ -2863,13 +2693,12 @@ window.ESPORTS_DATA = {
       "group": "瑞士制",
       "series": {
         "w": 0,
-        "l": 1
+        "l": 0
       },
       "games": {
         "w": 0,
-        "l": 2
-      },
-      "pendingChampionSeries": 1
+        "l": 0
+      }
     },
     {
       "league": "LCP",
@@ -2911,13 +2740,12 @@ window.ESPORTS_DATA = {
       "group": "瑞士制",
       "series": {
         "w": 0,
-        "l": 1
+        "l": 0
       },
       "games": {
         "w": 0,
-        "l": 2
-      },
-      "pendingChampionSeries": 1
+        "l": 0
+      }
     },
     {
       "league": "LCP",
@@ -2953,14 +2781,13 @@ window.ESPORTS_DATA = {
       ],
       "group": "瑞士制",
       "series": {
-        "w": 1,
+        "w": 0,
         "l": 0
       },
       "games": {
-        "w": 2,
+        "w": 0,
         "l": 0
-      },
-      "pendingChampionSeries": 1
+      }
     },
     {
       "league": "LCP",
@@ -3149,464 +2976,6 @@ window.ESPORTS_DATA = {
         "w": 2,
         "l": 0
       }
-    },
-    {
-      "id": "GEN",
-      "logo": "assets/teams/lck/gen.svg",
-      "name": "Gen.G Esports",
-      "group": "Legend Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "T1",
-      "logo": "assets/teams/lck/t1.svg",
-      "name": "T1",
-      "group": "Legend Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "HLE",
-      "logo": "assets/teams/lck/hle.svg",
-      "name": "Hanwha Life Esports",
-      "group": "Legend Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "KT",
-      "logo": "assets/teams/lck/kt.svg",
-      "name": "kt Rolster",
-      "group": "Legend Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "DK",
-      "logo": "assets/teams/lck/dk.svg",
-      "name": "Dplus KIA",
-      "group": "Legend Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "BFX",
-      "logo": "assets/teams/lck/bfx.svg",
-      "name": "BNK FEARX",
-      "group": "Rise Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "DNS",
-      "logo": "assets/teams/lck/dns.svg",
-      "name": "DN SOOPers",
-      "group": "Rise Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "BRO",
-      "logo": "assets/teams/lck/bro.svg",
-      "name": "HANJIN BRION",
-      "group": "Rise Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "KRX",
-      "logo": "assets/teams/lck/krx.svg",
-      "name": "KIWOOM DRX",
-      "group": "Rise Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "NS",
-      "logo": "assets/teams/lck/ns.svg",
-      "name": "NONGSHIM RED FORCE",
-      "group": "Rise Group",
-      "series": {
-        "w": 0,
-        "l": 0
-      },
-      "games": {
-        "w": 0,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCK",
-      "rosterStatus": "待同步"
-    },
-    {
-      "id": "FLY",
-      "logo": "assets/teams/lcs/fly.svg",
-      "name": "FlyQuest",
-      "group": "Regular Season",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 0,
-        "l": 2
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "LYON",
-      "logo": "assets/teams/lcs/lyon.svg",
-      "name": "LYON",
-      "group": "Regular Season",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "SEN",
-      "logo": "assets/teams/lcs/sen.svg",
-      "name": "Sentinels",
-      "group": "Regular Season",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 1
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "DIG",
-      "logo": "assets/teams/lcs/dig.svg",
-      "name": "Dignitas",
-      "group": "Regular Season",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 1,
-        "l": 2
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "TL",
-      "logo": "assets/teams/lcs/tl.svg",
-      "name": "Team Liquid Alienware",
-      "group": "Regular Season",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "C9",
-      "logo": "assets/teams/lcs/c9.svg",
-      "name": "Cloud9",
-      "group": "Regular Season",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 0,
-        "l": 2
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "SR",
-      "logo": "assets/teams/lcs/sr.svg",
-      "name": "Shopify Rebellion",
-      "group": "Regular Season",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 0
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "DSG",
-      "logo": "assets/teams/lcs/dsg.svg",
-      "name": "Disguised",
-      "group": "Regular Season",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 0,
-        "l": 2
-      },
-      "players": [],
-      "league": "LCS",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "FUR",
-      "logo": "assets/teams/cblol/fur.svg",
-      "name": "FURIA",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 0,
-        "l": 2
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "LOS",
-      "logo": "assets/teams/cblol/los.svg",
-      "name": "LOS",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 0
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "LOUD",
-      "logo": "assets/teams/cblol/loud.svg",
-      "name": "LOUD",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 1
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "PNG",
-      "logo": "assets/teams/cblol/png.svg",
-      "name": "paiN Gaming",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 1,
-        "l": 2
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "RED",
-      "logo": "assets/teams/cblol/red.svg",
-      "name": "RED Canids Kalunga",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 1,
-        "l": 2
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "VKS",
-      "logo": "assets/teams/cblol/vks.svg",
-      "name": "Vivo Keyd Stars",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 1
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "FXW7",
-      "logo": "assets/teams/cblol/fxw7.svg",
-      "name": "Fluxo W7M",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 1,
-        "l": 0
-      },
-      "games": {
-        "w": 2,
-        "l": 0
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
-    },
-    {
-      "id": "LEV",
-      "logo": "assets/teams/cblol/lev.svg",
-      "name": "LEVIATÁN",
-      "group": "Temporada Regular",
-      "series": {
-        "w": 0,
-        "l": 1
-      },
-      "games": {
-        "w": 0,
-        "l": 2
-      },
-      "players": [],
-      "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
     }
   ]
 };

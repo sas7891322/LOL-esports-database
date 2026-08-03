@@ -147,13 +147,11 @@ function teamCard(t,l){
   const hasData=champCount(t)>0;
   const hasSeries=(t.series.w+t.series.l)>0;
   const logoStyle = t.logo ? `style="--team-logo: url('${esc(t.logo)}')"` : '';
-  const pendingSeries = t.pendingChampionSeries || 0;
-  const rosterPending = t.rosterStatus === '待同步';
   const statusText = hasData
-    ? `${t.players.length} 名選手 · ${champCount(t)} 筆英雄紀錄${pendingSeries?` · ${pendingSeries} 系列待補`:''}`
+    ? `${t.players.length} 名選手 · ${champCount(t)} 筆英雄紀錄`
     : hasSeries
-      ? `${esc(compPatch(l))} 系列已建檔 · 英雄資料待補${rosterPending?' · 名單待同步':''}`
-      : `${esc(compPatch(l))} 尚未完成系列${rosterPending?' · 名單待同步':''}`;
+      ? `${esc(compPatch(l))} 系列已建檔 · 英雄資料待補`
+      : `${esc(compPatch(l))} 尚未完成系列`;
   return `<article class="team-card ${(!hasData&&!hasSeries)?'empty':''}" data-team="${t.id}" ${logoStyle}>
     <div class="team-card-bg" aria-hidden="true"></div>
     <h3>${esc(t.name)}</h3><p>${statusText}</p>
@@ -169,8 +167,8 @@ function renderTeam(){
   main.innerHTML=`
     <div class="backline"><button class="back-btn" id="backBtn">← 返回 ${l.id}</button><span class="pill">${esc(patch)} · ${esc(t.group)}</span></div>
     <section class="team-hero">${logoBlock}<div><div class="eyebrow">${l.id} · ${esc(compSeason(l))} ${esc(compSplit(l))}</div><h1>${esc(t.name)}</h1><p>${t.players.length} 名名單選手 · ${champCount(t)} 筆英雄紀錄</p></div><div class="record-big"><strong>${t.series.w}-${t.series.l}</strong><small>系列戰績 · 小局 ${t.games.w}-${t.games.l}</small></div></section>
-    <section class="section-head"><h2>選手英雄池</h2><span>${t.players.length?'點選選手查看完整英雄勝率':'目前先完成戰隊與賽果建檔'}</span></section>
-    ${t.players.length?`<section class="roster-grid">${t.players.map(p=>playerCard(t,p,l)).join('')}</section>`:`<div class="empty-state roster-pending"><h2>選手名單待同步</h2><p>系列與小局戰績已完成建檔；確認正式出賽名單與逐局英雄後再補入，不使用猜測資料。</p></div>`}
+    <section class="section-head"><h2>選手英雄池</h2><span>點選選手查看完整英雄勝率</span></section>
+    <section class="roster-grid">${t.players.map(p=>playerCard(t,p,l)).join('')}</section>
     <div class="accent-line"></div>
     <section class="section-head"><h2>版本資料摘要</h2><span>Patch ${esc(patch)}</span></section>
     <section class="stats-grid">
