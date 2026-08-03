@@ -1,4 +1,4 @@
-# RIFT DB V12G — Sources & Verification Notes
+# RIFT DB V12H — Sources & Verification Notes
 
 Updated: 2026-08-03 09:41 Asia/Taipei
 
@@ -10,7 +10,7 @@ This build extends the V11 snapshot with completed Patch 26.14 series through th
 - G2 vs VIT remains excluded by user request.
 - LCK DNS vs BRO (Aug 2) is not written because a reliable final map score was not available during verification.
 - LCP DCG vs DFM (Aug 1) is not written because the winner could be established but the exact final map score could not be independently confirmed.
-- LPL and the currently recorded LCK series have completed game-by-game champion verification; remaining leagues continue to use pending markers where champion picks are not yet backfilled.
+- LPL, the currently recorded LCK series, and all 11 recorded LEC series have completed game-by-game champion verification; LCP/LCS/CBLOL continue to use pending markers where champion picks are not yet backfilled.
 
 ## LPL
 
@@ -22,7 +22,7 @@ Added nine independently verified Week 10 / Rounds 3-4 series through KT 2-1 HLE
 
 ## LEC
 
-Week 2 live/post-match material explicitly states Patch 26.14. Added VIT 2-0 TH, MKOI 2-1 SHFT, SK 2-1 GX, KC 2-0 NAVI, G2 2-0 SK, MKOI 2-1 FNC. G2 vs VIT remains excluded.
+LEC Summer is tracked as Patch 26.14. All 11 recorded series through Aug 2 have now been backfilled game-by-game, covering 28 individual games / 280 player-game champion records. Team game totals and player champion win totals were cross-validated against the recorded series results. All 10 LEC teams now have champion data and `pendingChampionSeries` is cleared for every LEC team. G2 vs VIT remains excluded by user request.
 
 ## LCP
 
