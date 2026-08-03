@@ -5,7 +5,7 @@ window.ESPORTS_DATA = {
     "split": "Split 3",
     "patch": "26.14",
     "updated": "2026-08-03",
-    "note": "Patch 26.14 snapshot: LPL, LCK and LEC recorded series through August 2 include full game-by-game player champion picks. LEC continues to exclude G2 vs VIT by request; LCP/LCS/CBLOL remain progressively backfilled."
+    "note": "Patch 26.14 snapshot: LPL, LCK and LEC recorded series through August 2 include full game-by-game player champion picks. LEC continues to exclude G2 vs VIT by request; LCP now includes the verified Aug 1 DFM 0-2 DCG result, while LCP/LCS/CBLOL champion picks remain progressively backfilled."
   },
   "leagues": [
     {
@@ -690,6 +690,15 @@ window.ESPORTS_DATA = {
       "scoreB": 2,
       "patch": "26.14",
       "league": "LEC"
+    },
+    {
+      "date": "08/01",
+      "a": "DFM",
+      "b": "DCG",
+      "scoreA": 0,
+      "scoreB": 2,
+      "patch": "26.14",
+      "league": "LCP"
     },
     {
       "date": "08/02",
@@ -5149,13 +5158,13 @@ window.ESPORTS_DATA = {
       "group": "瑞士制",
       "series": {
         "w": 1,
-        "l": 1
+        "l": 2
       },
       "games": {
         "w": 2,
-        "l": 3
+        "l": 5
       },
-      "pendingChampionSeries": 2
+      "pendingChampionSeries": 3
     },
     {
       "league": "LCP",
@@ -5196,14 +5205,14 @@ window.ESPORTS_DATA = {
       ],
       "group": "瑞士制",
       "series": {
-        "w": 1,
+        "w": 2,
         "l": 1
       },
       "games": {
-        "w": 2,
+        "w": 4,
         "l": 3
       },
-      "pendingChampionSeries": 2
+      "pendingChampionSeries": 3
     },
     {
       "league": "LCP",
