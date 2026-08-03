@@ -1,8 +1,8 @@
-# RIFT DB V12J — Sources & Verification Notes
+# RIFT DB V12K — Sources & Verification Notes
 
 Updated: 2026-08-03 Asia/Taipei
 
-This build keeps the existing verified league data intact, preserves the completed LCP backfill, and adds FlyQuest champion-level data for both recorded LCS series through Aug 1.
+This build keeps the existing verified league data intact, preserves the completed LCP backfill, and completes champion-level data for all eight recorded LCS teams through Aug 2.
 
 ## Verification policy
 
@@ -25,11 +25,11 @@ This build keeps the existing verified league data intact, preserves the complet
 - LPL: 26 series / 63 games, champion-level backfill complete for recorded series.
 - LCK: 9 series / 22 games currently recorded; DNS vs BRO withheld as above.
 - LEC: 11 series / 28 games, champion-level backfill complete; G2 vs VIT excluded by request.
-## LCS — FlyQuest
+## LCS
 
-- FlyQuest 0-2 LYON (Jul 25): both maps were verified from the LCS post-match game tables, including direct player-to-champion attribution.
-- FlyQuest 2-0 Disguised (Aug 1): both maps were cross-checked against RFT's game builds/series scoreboard; FLY used Aatrox / Shyvana / Orianna / Ziggs / Camille in Game 1 and Rumble / Pantheon / Cassiopeia / Ezreal / Bard in Game 2.
-- FLY validation: 4 maps total, 20 player-game champion records; all five starters have exactly 4 champion-games and 2 champion-wins. `pendingChampionSeries` is now 0 for FLY.
-- LCS overall remains 8 recorded series / 18 games; champion backfill is complete for 1/8 teams and remains in progress for the other seven.
+- Completed game-by-game champion backfill for all 8 recorded Summer series / 18 individual games through Aug 2.
+- Verified series: DIG 1-2 SEN (Jul 25), FLY 0-2 LYON (Jul 25), C9 0-2 TL (Jul 26), DSG 0-2 SR (Jul 26), C9 2-1 DIG (Aug 1), FLY 2-0 DSG (Aug 1), SR 0-2 LYON (Aug 2), and TL 2-0 SEN (Aug 2).
+- Player-to-champion attribution was reconstructed from LCS post-match game tables and cross-checked against current series/player records. Existing FlyQuest data was independently regenerated from the same 18-game set and matched the prior V12J backfill exactly.
+- Validation result: 180 player-game champion records across the eight LCS teams; each starter's champion-game total matches the team's map count and champion-win total matches the team's map wins. All LCS `pendingChampionSeries` values are now 0.
 
 - CBLOL: 8 series / 18 games; champion backfill remains in progress.
