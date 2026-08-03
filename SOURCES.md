@@ -1,8 +1,8 @@
-# RIFT DB V12K — Sources & Verification Notes
+# RIFT DB V12L — Sources & Verification Notes
 
 Updated: 2026-08-03 Asia/Taipei
 
-This build keeps the existing verified league data intact, preserves the completed LCP backfill, and completes champion-level data for all eight recorded LCS teams through Aug 2.
+This build keeps the existing verified league data intact and completes champion-level data for all eight recorded CBLOL teams through Aug 2, in addition to the previously completed LCP and LCS backfills.
 
 ## Verification policy
 
@@ -32,4 +32,10 @@ This build keeps the existing verified league data intact, preserves the complet
 - Player-to-champion attribution was reconstructed from LCS post-match game tables and cross-checked against current series/player records. Existing FlyQuest data was independently regenerated from the same 18-game set and matched the prior V12J backfill exactly.
 - Validation result: 180 player-game champion records across the eight LCS teams; each starter's champion-game total matches the team's map count and champion-win total matches the team's map wins. All LCS `pendingChampionSeries` values are now 0.
 
-- CBLOL: 8 series / 18 games; champion backfill remains in progress.
+## CBLOL
+
+- Completed game-by-game champion backfill for all 8 recorded Split 2 series / 18 individual games through Aug 2.
+- Player-to-champion attribution was cross-checked against current Sheep Esports match/player pages and tournament-scoped champion totals.
+- FURIA jungle substitutions are represented separately (Tatu: 2 games; Luuukz: 2 games). RED support substitutions are represented separately (frosty: 3 games / 1 win; Manel: 2 games / 0 wins).
+- Peach's four Split 2 jungle games reconcile exactly with his current 2026 champion totals (Jarvan IV 1W, Aatrox 2 games / 1W, Wukong 1L). Manel's Aug 2 support games reconcile with his current 2026 champion totals (Leona and Nautilus, both losses).
+- Validation result: 180 player-game champion records across the eight CBLOL teams; starter/substitute game totals and champion-win totals reconcile to team map records. All CBLOL `pendingChampionSeries` values are now 0.

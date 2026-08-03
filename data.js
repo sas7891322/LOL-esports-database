@@ -5,7 +5,7 @@ window.ESPORTS_DATA = {
     "split": "Split 3",
     "patch": "26.14",
     "updated": "2026-08-03",
-    "note": "Patch 26.14 snapshot: LPL, LCK, LEC, LCP and LCS recorded series through August 2 include full game-by-game player champion picks. LEC continues to exclude G2 vs VIT by request; CBLOL champion picks remain progressively backfilled."
+    "note": "Patch 26.14 snapshot: LPL, LCK, LEC, LCP, LCS and CBLOL recorded series through August 2 include full game-by-game player champion picks. LEC continues to exclude G2 vs VIT by request."
   },
   "leagues": [
     {
@@ -84,7 +84,7 @@ window.ESPORTS_DATA = {
       "split": "Split 2",
       "patch": "26.14",
       "title": "CBLOL 第二賽段資料庫",
-      "note": "2026 CBLOL Split 2 · Patch 26.14。已更新至 8/2 Week 2 完賽系列；新系列英雄資料待補。"
+      "note": "2026 CBLOL Split 2 · Patch 26.14。已更新至 8/2 Week 2 的 8 個完賽系列、18 個小局；8/8 戰隊逐局選手英雄與勝敗資料已全部補齊。"
     }
   ],
   "matches": [
@@ -9241,10 +9241,147 @@ window.ESPORTS_DATA = {
         "w": 0,
         "l": 4
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Guigo",
+          "champions": [
+            {
+              "name": "賽恩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "汎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "加里歐",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Tatu",
+          "champions": [
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "葛雷夫",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Luuukz",
+          "champions": [
+            {
+              "name": "特朗德",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "悟空",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Tutsz",
+          "champions": [
+            {
+              "name": "阿卡莉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "洛克",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Ayu",
+          "champions": [
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "賽勒斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "凱莎",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "JoJo",
+          "champions": [
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "LOS",
@@ -9259,10 +9396,121 @@ window.ESPORTS_DATA = {
         "w": 4,
         "l": 0
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Zest",
+          "champions": [
+            {
+              "name": "杰西",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "蒙多醫生",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "法洛士",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Curse",
+          "champions": [
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "特朗德",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Feisty",
+          "champions": [
+            {
+              "name": "奧莉安娜",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "塔莉雅",
+              "games": 2,
+              "wins": 2
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Duduhh",
+          "champions": [
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "洛克",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "阿卡莉",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Ackerman",
+          "champions": [
+            {
+              "name": "慎",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "LOUD",
@@ -9277,10 +9525,166 @@ window.ESPORTS_DATA = {
         "w": 4,
         "l": 1
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "xyno",
+          "champions": [
+            {
+              "name": "崔絲塔娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "卡桑帝",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "鄂爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "歐拉夫",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Sinatra",
+          "champions": [
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "姬亞娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "悟空",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "夜曲",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Kaze",
+          "champions": [
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "賽勒斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "塔莉雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "阿卡莉",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Rabelo",
+          "champions": [
+            {
+              "name": "凱莎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "燼",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "凱特琳",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "uZent",
+          "champions": [
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡瑪",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "PNG",
@@ -9295,10 +9699,161 @@ window.ESPORTS_DATA = {
         "w": 3,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Boal",
+          "champions": [
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "逆命",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "杰西",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Cariok",
+          "champions": [
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "茂凱",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Keine",
+          "champions": [
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "艾妮維亞",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "加里歐",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Hena",
+          "champions": [
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "路西恩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "凱特琳",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Ceos",
+          "champions": [
+            {
+              "name": "雷歐娜",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "米里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "RED",
@@ -9313,10 +9868,162 @@ window.ESPORTS_DATA = {
         "w": 1,
         "l": 4
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "zynts",
+          "champions": [
+            {
+              "name": "杰西",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "歐拉夫",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "賽恩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷尼克頓",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Stepz",
+          "champions": [
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "悟空",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "姬亞娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "厄薩斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Fuuu",
+          "champions": [
+            {
+              "name": "星朵拉",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "雷茲",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Morttheus",
+          "champions": [
+            {
+              "name": "路西恩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "威寇茲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "梅爾",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "frosty",
+          "champions": [
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Manel",
+          "champions": [
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "VKS",
@@ -9331,10 +10038,156 @@ window.ESPORTS_DATA = {
         "w": 4,
         "l": 1
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "ZekaS",
+          "champions": [
+            {
+              "name": "藍寶",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "約瑞科",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "崔絲塔娜",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Disamis",
+          "champions": [
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "趙信",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "特朗德",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "夜曲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Mireu",
+          "champions": [
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "賽勒斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "阿卡莉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "塔莉雅",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Jeskla",
+          "champions": [
+            {
+              "name": "伊澤瑞爾",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "scamber",
+          "champions": [
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "茂凱",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "FXW7",
@@ -9349,10 +10202,111 @@ window.ESPORTS_DATA = {
         "w": 2,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Zothve",
+          "champions": [
+            {
+              "name": "杰西",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "卡桑帝",
+              "games": 2,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Peach",
+          "champions": [
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "厄薩斯",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "悟空",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "cody",
+          "champions": [
+            {
+              "name": "加里歐",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "阿璃",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "麗珊卓",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "BAO",
+          "champions": [
+            {
+              "name": "星朵拉",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 2,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Momochi",
+          "champions": [
+            {
+              "name": "慎",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "LEV",
@@ -9367,10 +10321,136 @@ window.ESPORTS_DATA = {
         "w": 0,
         "l": 4
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Devost",
+          "champions": [
+            {
+              "name": "汎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "卡桑帝",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Booki",
+          "champions": [
+            {
+              "name": "悟空",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Enga",
+          "champions": [
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "艾妮維亞",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Strensh",
+          "champions": [
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "齊勒斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Shiku",
+          "champions": [
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "卡瑪",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "CBLOL",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     }
   ]
 };
