@@ -3870,7 +3870,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "FUR",
-      "logo": "assets/teams/cblol/fur.svg",
+      "logo": "assets/teams/cblol/fur.png",
       "name": "FURIA",
       "group": "Temporada Regular",
       "series": {
@@ -3888,7 +3888,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "LOS",
-      "logo": "assets/teams/cblol/los.svg",
+      "logo": "assets/teams/cblol/los.png",
       "name": "LOS",
       "group": "Temporada Regular",
       "series": {
@@ -3906,7 +3906,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "LOUD",
-      "logo": "assets/teams/cblol/loud.svg",
+      "logo": "assets/teams/cblol/loud.png",
       "name": "LOUD",
       "group": "Temporada Regular",
       "series": {
@@ -3924,7 +3924,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "PNG",
-      "logo": "assets/teams/cblol/png.svg",
+      "logo": "assets/teams/cblol/png.png",
       "name": "paiN Gaming",
       "group": "Temporada Regular",
       "series": {
@@ -3942,7 +3942,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "RED",
-      "logo": "assets/teams/cblol/red.svg",
+      "logo": "assets/teams/cblol/red.png",
       "name": "RED Canids Kalunga",
       "group": "Temporada Regular",
       "series": {
@@ -3960,7 +3960,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "VKS",
-      "logo": "assets/teams/cblol/vks.svg",
+      "logo": "assets/teams/cblol/vks.png",
       "name": "Vivo Keyd Stars",
       "group": "Temporada Regular",
       "series": {
@@ -3978,7 +3978,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "FXW7",
-      "logo": "assets/teams/cblol/fxw7.svg",
+      "logo": "assets/teams/cblol/fxw7.png",
       "name": "Fluxo W7M",
       "group": "Temporada Regular",
       "series": {
@@ -3996,7 +3996,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "LEV",
-      "logo": "assets/teams/cblol/lev.svg",
+      "logo": "assets/teams/cblol/lev.png",
       "name": "LEVIATÁN",
       "group": "Temporada Regular",
       "series": {
