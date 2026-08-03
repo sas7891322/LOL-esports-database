@@ -5,7 +5,7 @@ window.ESPORTS_DATA = {
     "split": "Split 3",
     "patch": "26.14",
     "updated": "2026-08-03",
-    "note": "Patch 26.14 global snapshot through independently verified completed series as of 2026-08-03 09:41 Asia/Taipei. G2–VIT remains excluded by request. LCK DNS–BRO (Aug 2) and LCP DCG–DFM (Aug 1) are withheld until exact final map scores can be independently verified. New post-V11 series are recorded at series/game level; champion picks remain marked pending verification."
+    "note": "Patch 26.14 global snapshot through 2026-08-03. LCK Rounds 3–4 hero picks are fully synchronized for all 9 recorded series through Aug 2. G2–VIT remains excluded by request. LCP/LCS/CBLOL champion picks are the next pending data batch."
   },
   "leagues": [
     {
@@ -32,7 +32,7 @@ window.ESPORTS_DATA = {
       "split": "Rounds 3–4",
       "patch": "26.14",
       "title": "韓國職業聯賽資料庫",
-      "note": "2026 LCK Rounds 3–4 · Patch 26.14。已納入截至 8/2 可獨立驗證的 9 個完賽系列；DNS vs BRO 暫待最終小局比分驗證。"
+      "note": "2026 LCK Rounds 3–4 · Patch 26.14。已納入截至 8/2 的 9 個完賽系列，逐局選手英雄與勝敗資料已完成同步。"
     },
     {
       "id": "LEC",
@@ -3557,10 +3557,136 @@ window.ESPORTS_DATA = {
         "w": 0,
         "l": 4
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Kiin",
+          "champions": [
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "法洛士",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Canyon",
+          "champions": [
+            {
+              "name": "史加納",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Chovy",
+          "champions": [
+            {
+              "name": "加里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "洛克",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "犽凝",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "艾妮維亞",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Ruler",
+          "champions": [
+            {
+              "name": "剎雅",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "燼",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "路西恩",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Duro",
+          "champions": [
+            {
+              "name": "慎",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "米里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "銳空",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "T1",
@@ -3575,10 +3701,136 @@ window.ESPORTS_DATA = {
         "w": 2,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Doran",
+          "champions": [
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "賈克斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "杰西",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Oner",
+          "champions": [
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "趙信",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Faker",
+          "champions": [
+            {
+              "name": "雷茲",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "阿卡莉",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Peyz",
+          "champions": [
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "路西恩",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "燼",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Keria",
+          "champions": [
+            {
+              "name": "瑟菈紛",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "米里歐",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷歐娜",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "HLE",
@@ -3593,10 +3845,171 @@ window.ESPORTS_DATA = {
         "w": 2,
         "l": 4
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Zeus",
+          "champions": [
+            {
+              "name": "安比薩",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "厄薩斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "艾妮維亞",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "法洛士",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Kanavi",
+          "champions": [
+            {
+              "name": "夜曲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "姬亞娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希瓦娜",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Zeka",
+          "champions": [
+            {
+              "name": "安妮",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "加里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "歐羅拉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "洛克",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Gumayusi",
+          "champions": [
+            {
+              "name": "燼",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "路西恩",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "艾希",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Delight",
+          "champions": [
+            {
+              "name": "米里歐",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "瑟菈紛",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "KT",
@@ -3611,10 +4024,141 @@ window.ESPORTS_DATA = {
         "w": 4,
         "l": 1
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "PerfecT",
+          "champions": [
+            {
+              "name": "藍寶",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "薩亨",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "古拉格斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Cuzz",
+          "champions": [
+            {
+              "name": "潘森",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "史加納",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Bdd",
+          "champions": [
+            {
+              "name": "卡莎碧雅",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "安妮",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "犽凝",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "FenRir",
+          "champions": [
+            {
+              "name": "好運姐",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "尤娜拉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Effort",
+          "champions": [
+            {
+              "name": "納帝魯斯",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "露璐",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "DK",
@@ -3629,10 +4173,156 @@ window.ESPORTS_DATA = {
         "w": 4,
         "l": 1
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Siwoo",
+          "champions": [
+            {
+              "name": "歐拉夫",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "卡桑帝",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "賈克斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "雷尼克頓",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Lucid",
+          "champions": [
+            {
+              "name": "趙信",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "史加納",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "ShowMaker",
+          "champions": [
+            {
+              "name": "卡莎碧雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Smash",
+          "champions": [
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "凱特琳",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "尤娜拉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Career",
+          "champions": [
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "露璐",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "派克",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "BFX",
@@ -3647,10 +4337,156 @@ window.ESPORTS_DATA = {
         "w": 3,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Clear",
+          "champions": [
+            {
+              "name": "崔絲塔娜",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "歐拉夫",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡桑帝",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "魔鬥凱薩",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Raptor",
+          "champions": [
+            {
+              "name": "李星",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "潘森",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "VicLa",
+          "champions": [
+            {
+              "name": "卡莎碧雅",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "塔莉雅",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "加里歐",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Taeyoon",
+          "champions": [
+            {
+              "name": "希維爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "法洛士",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希格斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Kellin",
+          "champions": [
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "DNS",
@@ -3665,10 +4501,91 @@ window.ESPORTS_DATA = {
         "w": 0,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "DuDu",
+          "champions": [
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "杰西",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Sharvel",
+          "champions": [
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Clozer",
+          "champions": [
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "deokdam",
+          "champions": [
+            {
+              "name": "凱莎",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Peter",
+          "champions": [
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "銳兒",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "BRO",
@@ -3683,10 +4600,116 @@ window.ESPORTS_DATA = {
         "w": 1,
         "l": 2
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Casting",
+          "champions": [
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "艾妮維亞",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "雷尼克頓",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "GIDEON",
+          "champions": [
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Roamer",
+          "champions": [
+            {
+              "name": "星朵拉",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "塔莉雅",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "歐羅拉",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Teddy",
+          "champions": [
+            {
+              "name": "庫奇",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "維克特",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "路西恩",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Namgung",
+          "champions": [
+            {
+              "name": "卡蜜兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "亞歷斯塔",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "米里歐",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 1
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "KRX",
@@ -3701,10 +4724,168 @@ window.ESPORTS_DATA = {
         "w": 2,
         "l": 3
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Frog",
+          "champions": [
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "TOP",
+          "id": "Rich",
+          "champions": [
+            {
+              "name": "吶兒",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "約瑞科",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "安比薩",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Willer",
+          "champions": [
+            {
+              "name": "夜曲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "潘森",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "史加納",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "娜菲芮",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "趙信",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Ucal",
+          "champions": [
+            {
+              "name": "卡莎碧雅",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "安妮",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "奧莉安娜",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "LazyFeel",
+          "champions": [
+            {
+              "name": "尤娜拉",
+              "games": 1,
+              "wins": 0
+            },
+            {
+              "name": "希維爾",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Aiming",
+          "champions": [
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "希維爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "燼",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Andil",
+          "champions": [
+            {
+              "name": "納帝魯斯",
+              "games": 2,
+              "wins": 0
+            },
+            {
+              "name": "卡瑪",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "慎",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "巴德",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "NS",
@@ -3719,10 +4900,141 @@ window.ESPORTS_DATA = {
         "w": 4,
         "l": 1
       },
-      "players": [],
+      "players": [
+        {
+          "role": "TOP",
+          "id": "Kingen",
+          "champions": [
+            {
+              "name": "法洛士",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "薩亨",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "藍寶",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "雷尼克頓",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "杰西",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "JG",
+          "id": "Sponge",
+          "champions": [
+            {
+              "name": "嘉文四世",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "李星",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "潘森",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "菲艾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "趙信",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "MID",
+          "id": "Scout",
+          "champions": [
+            {
+              "name": "洛克",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "星朵拉",
+              "games": 2,
+              "wins": 1
+            },
+            {
+              "name": "雷茲",
+              "games": 1,
+              "wins": 1
+            }
+          ]
+        },
+        {
+          "role": "ADC",
+          "id": "Diable",
+          "champions": [
+            {
+              "name": "燼",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "伊澤瑞爾",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "厄薩斯",
+              "games": 1,
+              "wins": 1
+            },
+            {
+              "name": "凱莎",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        },
+        {
+          "role": "SUP",
+          "id": "Lehends",
+          "champions": [
+            {
+              "name": "慎",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "雷歐娜",
+              "games": 2,
+              "wins": 2
+            },
+            {
+              "name": "納帝魯斯",
+              "games": 1,
+              "wins": 0
+            }
+          ]
+        }
+      ],
       "league": "LCK",
-      "rosterStatus": "待同步",
-      "pendingChampionSeries": 2
+      "rosterStatus": "已同步",
+      "pendingChampionSeries": 0
     },
     {
       "id": "FLY",
