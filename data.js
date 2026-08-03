@@ -3726,7 +3726,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "FLY",
-      "logo": "assets/teams/lcs/fly.svg",
+      "logo": "assets/teams/lcs/fly.png",
       "name": "FlyQuest",
       "group": "Regular Season",
       "series": {
@@ -3744,7 +3744,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "LYON",
-      "logo": "assets/teams/lcs/lyon.svg",
+      "logo": "assets/teams/lcs/lyon.png",
       "name": "LYON",
       "group": "Regular Season",
       "series": {
@@ -3762,7 +3762,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "SEN",
-      "logo": "assets/teams/lcs/sen.svg",
+      "logo": "assets/teams/lcs/sen.png",
       "name": "Sentinels",
       "group": "Regular Season",
       "series": {
@@ -3780,7 +3780,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "DIG",
-      "logo": "assets/teams/lcs/dig.svg",
+      "logo": "assets/teams/lcs/dig.png",
       "name": "Dignitas",
       "group": "Regular Season",
       "series": {
@@ -3798,7 +3798,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "TL",
-      "logo": "assets/teams/lcs/tl.svg",
+      "logo": "assets/teams/lcs/tl.png",
       "name": "Team Liquid Alienware",
       "group": "Regular Season",
       "series": {
@@ -3816,7 +3816,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "C9",
-      "logo": "assets/teams/lcs/c9.svg",
+      "logo": "assets/teams/lcs/c9.png",
       "name": "Cloud9",
       "group": "Regular Season",
       "series": {
@@ -3834,7 +3834,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "SR",
-      "logo": "assets/teams/lcs/sr.svg",
+      "logo": "assets/teams/lcs/sr.png",
       "name": "Shopify Rebellion",
       "group": "Regular Season",
       "series": {
@@ -3852,7 +3852,7 @@ window.ESPORTS_DATA = {
     },
     {
       "id": "DSG",
-      "logo": "assets/teams/lcs/dsg.svg",
+      "logo": "assets/teams/lcs/dsg.png",
       "name": "Disguised",
       "group": "Regular Season",
       "series": {
