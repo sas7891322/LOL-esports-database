@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="全球 League of Legends 職業賽戰隊、選手與版本英雄統計資料庫" />
+  <title>RIFT DB — LoL Esports Database</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <button class="brand" data-nav-home aria-label="回到首頁">
+      <span class="brand-mark">R</span>
+      <span><strong>RIFT DB</strong><small>LoL Esports Database</small></span>
+    </button>
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="globalSearch" placeholder="搜尋戰隊、選手、英雄…" autocomplete="off" />
+      <kbd>⌘ K</kbd>
+      <div id="searchResults" class="search-results hidden"></div>
+    </div>
+    <div class="top-actions">
+      <span class="live-dot"></span><span class="snapshot">26.14 Snapshot</span>
+      <button class="ghost-btn" id="compareBtn">戰隊比較</button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="side-label">全球聯賽</div>
+      <nav id="leagueNav" class="league-nav"></nav>
+      <div class="side-divider"></div>
+      <div class="side-label">資料層</div>
+      <button class="side-action active" data-view="teams">戰隊資料</button>
+      <button class="side-action" data-view="matches">原始比賽</button>
+      <div class="sidebar-foot">
+        <div class="db-status"><span></span>Database Online</div>
+        <small>Prototype · 2026</small>
+      </div>
+    </aside>
+
+    <main id="main" class="main"></main>
+  </div>
+
+  <div id="modal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card">
+      <button class="modal-close" data-close-modal>×</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

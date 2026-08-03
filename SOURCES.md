@@ -1,60 +1,37 @@
-# Prototype source notes
+# RIFT DB V12 — Sources & Verification Notes
 
-- Riot Games LoL Esports 2026 League Handbook: Tier 1 structure includes LCS, CBLOL, LEC, LCP, LPL, and LCK across five regions.
-- LPL 2026 Split 3 post-match records were used as the prototype snapshot basis.
-- WE vs JDG on 2026-07-24: WE won 2-1 on Patch 26.14.
+Updated: 2026-08-03 09:41 Asia/Taipei
 
-This prototype is not yet an automated production database. Before public launch, per-game records should be ingested and independently verified before aggregate statistics are published.
+This build extends the V11 snapshot with completed Patch 26.14 series through the latest verifiable results available at update time.
 
-## Team logo assets
+## Verification policy
 
-- LPL team logo images in `assets/teams/lpl/` were sourced from the current team profile assets shown by GosuGamers for identification inside this non-commercial prototype.
-- Team names, marks, and logos remain trademarks/copyrights of their respective owners.
+- Only completed series with an independently verifiable final map score are written into `matches`.
+- G2 vs VIT remains excluded by user request.
+- LCK DNS vs BRO (Aug 2) is not written because a reliable final map score was not available during verification.
+- LCP DCG vs DFM (Aug 1) is not written because the winner could be established but the exact final map score could not be independently confirmed.
+- New series added after V11 are marked as pending champion-level verification.
 
-## LEC 2026 Summer
+## LPL
 
-- Riot Games confirmed the 2026 LEC Summer Split starts on 2026-07-24 with 10 teams and a single round-robin Bo3 regular season.
-- LEC Summer opening-day matches are played on Patch 26.14.
-- Current starting rosters were initialized from the LEC 2026 Summer event roster listings on Sheep Esports before the opening matches.
-- LEC team logo assets in `assets/teams/lec/` were sourced from the current team assets served by Sheep Esports for identification inside this non-commercial prototype.
-- No LEC champion statistics are prefilled. Player champion records begin only after completed 2026 Summer Patch 26.14 series.
+Results cross-checked against LPL post-match threads / schedule and final Group Ascend standings. Patch 26.14 is explicitly shown in current Split 3 post-match material. Added through Aug 2, including TES 2-0 JDG and LNG 0-2 IG.
 
-- GIANTX / SK Gaming card logos: recolored variants derived from the existing logo assets for dark-background readability.
+## LCK
 
-## LPL 2026 Split 3 — 2026-07-24 update
-- Anyone's Legend 2–0 LGD Gaming — Patch 26.14 post-match game drafts and results.
-- Team WE 2–1 JD Gaming — Patch 26.14 post-match game drafts and results.
-- EDward Gaming 1–2 Bilibili Gaming — Patch 26.14 post-match game drafts and results.
-- Riot Games zh-TW champion pages / Patch 26.14 notes used for Taiwan server champion naming (e.g. 洛克、汎、悟空).
+Added nine independently verified Week 10 / Rounds 3-4 series through KT 2-1 HLE on Aug 2. DNS vs BRO remains withheld pending exact final score verification.
 
+## LEC
 
-## League logos (homepage watermark upgrade)
-- LPL: current LPL identity mark, recreated as a lightweight transparent SVG watermark from the league's 2020 rebrand visual.
-- LCK: Wikimedia Commons, `League of Legends Champions Korea logo.svg` (source identifies the 2021-present LCK mark).
-- LEC: Wikimedia Commons, `League of Legends EMEA Championship.png` (Riot Games / LoL Esports source).
-- LCP: Wikimedia Commons, `League of Legends Championship Pacific logo.svg` (Riot Games source).
-- LCS: Wikimedia Commons, `League championship series logo 2021.svg` (Riot Games source).
-- CBLOL: Wikimedia Commons, `CBLOL logo.png` (League of Legends Esports source).
+Week 2 live/post-match material explicitly states Patch 26.14. Added VIT 2-0 TH, MKOI 2-1 SHFT, SK 2-1 GX, KC 2-0 NAVI, G2 2-0 SK, MKOI 2-1 FNC. G2 vs VIT remains excluded.
 
-Logos are displayed as low-opacity monochrome watermarks for league identification. League names and marks may be protected trademarks of their respective owners.
+## LCP
 
-## LCP 2026 Split 3 — 2026-07-25 initialization
-- Riot Games / LoL Esports: `LCP 2026 Split 3 Everything You Need To Know` — Split 3 starts July 25, runs through August 30, matchdays begin 17:00 Taiwan time, and the regular season uses the Swiss Stage format.
-- LoL Esports Split 3 standings: participating teams are CFO, DFM, Relove Deep Cross Gaming, GAM, Ground Zero Gaming, MVK Esports, Fukuoka SoftBank HAWKS gaming, and Team Secret Whales.
-- CTBC Flying Oyster roster: Rest, Shad0w, Pout, Doggo, Kino (Liquipedia / Leaguepedia current 2026 roster).
-- DetonatioN FocusMe roster: Momo, RayFarky, Citrus, Fisher, Kakkun, Woody (Liquipedia current roster).
-- Relove Deep Cross Gaming roster: Flauren, POP9, HongSuo, XiaoXiang, Feng, ShiauC (Liquipedia current roster).
-- GAM Esports roster: Kiaya, Draktharr, Gloryy, Artemis, Taki (Liquipedia current roster; Aress departed before Split 3).
-- Ground Zero Gaming Split 3 roster: 1Jiang, Husha, Uniboy, Betty, Kaiwing (Ground Zero announcements reported by Bahamut GNN / Yahoo Taiwan, July 21–22, 2026).
-- MVK Esports active roster: Kratos, Steller, Gury, SofM, NPC, Chika, Harky, SiuLoong (Liquipedia current roster).
-- Fukuoka SoftBank HAWKS gaming roster: Evi, Van, Aria, Marble, Vsta (official SoftBank HAWKS gaming team page).
-- Team Secret Whales active roster: Pun, Hiro02, Hizto, Dire, Eddie, Bie (Liquipedia / Leaguepedia current roster).
-- LCP team-card logos use current LoL Esports team image assets through Riot's Akamai image proxy.
-- Player champion arrays start empty. No prior-split champion data is carried into Split 3.
-- Patch is provisionally initialized as 26.14 to match the current live competitive patch window; it should be confirmed against the first completed Split 3 post-match record before champion statistics are ingested.
+Added verified Swiss-stage series through TSW 3-0 CFO on Aug 2. DCG vs DFM (Aug 1) withheld until exact score verification.
 
+## LCS
 
-## Patch 26.14 update — 2026-07-26
-- LPL July 25 post-match threads: LGD vs WE, IG vs WBG, TES vs TT (Reddit Post-Match Team / Games of Legends cross-check).
-- LEC Week 1 post-match threads: MKOI vs G2, KC vs VIT; both explicitly list Patch 26.14. VIT vs G2 intentionally excluded.
-- LCP July 25 series results: GZ 0-2 MVK and SHG 0-2 TSW. Detailed champion picks not entered until independently verifiable.
+Week 2 live discussion explicitly states Patch 26.14. Added C9 2-1 DIG, FLY 2-0 DSG, LYON 2-0 SR, TL 2-0 SEN.
+
+## CBLOL
+
+Added Week 2 completed series: VKS 2-0 FUR, PNG 2-0 LEV, LOUD 2-0 FXW7, LOS 2-0 RED.
